@@ -34,14 +34,4 @@ Abrir um baú inicia o evento. O jogador (e quem mais estiver perto) deverá der
 
 Se os jogadores vencerem as 5 ondas, o baú é desbloqueado (indicado por um efeito de embrulho de presente e a mensagem "Chest Unlocked!"). Você terá então **60 segundos** para pegar as recompensas dentro dele, antes que desapareça.
 
-### Orbes de Upgrade
-As recompensas sempre incluem uma variedade de orbes de upgrade usadas no sistema de Forja. A quantidade escala com o tier do baú:
-- **Special Orb, Ascension Orb, Fortification Orb, Highroller Orb:** Caem 100% de chance.
-- **Truesight Orb:** 10% de chance de cair.
-
-### Equipamentos, Poder e Raridade
-- **Pool de Loot:** Cada tier tem um grupo específico de prêmios, que inclui armas, armaduras, gemas, anéis e platinum coins. Baús Lendários podem dropar itens de altíssimo nível, como Mastermind Shields, Golden Helmets e o conjunto Necrotic/Skullcrusher.
-- **Sorteio de Raridade:** Qualquer equipamento retirado do baú faz um teste de raridade na hora. Baús de tier alto possuem chances drasticamente melhores de tirar raridades Épica (Epic) ou Lendária (Legendary). Por exemplo, um baú Lendário tem 20% de chance de dar um item Lendário, contra apenas 1% no baú Comum.
-- **Poder (Power) e Tiers Base:** Os itens ganham um escore base de **Poder** calculado através da média de poder dos monstros derrotados no evento (somando também o bônus das caveiras). O **Tier** base do item também é atrelado ao tier do baú, havendo uma pequena chance aleatória de o item upar por conta própria ao cair (até Tier 4).
-
-Esse sistema é fortemente conectado aos sistemas de Forja e de Raridade do Eternum, fazendo dos Baús Amaldiçoados uma atividade muito disputada e rentável para buscar itens potentes.
+Aqueles que concluírem com sucesso o desafio dos Baús Amaldiçoados receberão ótimas recompensas, que incluem equipamentos poderosos e diversas orbes de upgrade usadas no sistema de Forja. A qualidade e raridade das recompensas escalam diretamente com o tier do baú derrotado.

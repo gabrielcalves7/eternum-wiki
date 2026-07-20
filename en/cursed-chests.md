@@ -34,14 +34,4 @@ Opening a chest triggers the event. The player (and anyone nearby) must defeat *
 
 If players successfully clear all 5 waves, the chest unlocks (indicated by a "gift wraps" effect and a "Chest Unlocked!" message). Players then have **60 seconds** to claim their rewards from inside the chest before it vanishes.
 
-### Upgrade Orbs
-Rewards always include a combination of upgrade orbs used in the Forge system. The amount dropped scales with the tier:
-- **Special Orb, Ascension Orb, Fortification Orb, Highroller Orb:** Guaranteed drops.
-- **Truesight Orb:** 10% chance to drop.
-
-### Equipment, Power, and Rarity
-- **Loot Pools:** Each tier has a specific loot pool including weapons, armors, gems, rings, and platinum coins. Legendary chests can drop top-tier items like Mastermind Shields, Golden Helmets, and Necrotic/Skullcrusher gear.
-- **Rarity Rolls:** Equipment dropped from the chest automatically rolls for rarity. Higher tier chests have substantially better chances to roll Epic and Legendary rarities. For example, a Legendary chest has a 20% chance to drop a Legendary rarity item, whereas a Common chest only has a 1% chance.
-- **Item Power & Base Tiers:** Dropped items gain a base **Power** score calculated from the average power of the monsters defeated in the event (including bonuses from monster skulls). The item's base **Tier** is also intrinsically linked to the chest's tier, with a small random chance for the item to upgrade itself even further upon dropping (up to Tier 4).
-
-This system integrates tightly with Eternum's Forge and Rarity systems, making Cursed Chests a highly contested and rewarding activity for farming powerful base items.
+Those who successfully accomplish the Cursed Chests challenge are granted great rewards, which include powerful equipment and various upgrade orbs used in the Forge system. The quality and rarity of the rewards scale directly with the tier of the chest you defeat.

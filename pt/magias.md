@@ -46,3 +46,10 @@ Os magos têm acesso ao conjunto completo de magias de alvo único (strikes) mod
 - **Strikes Normais:** Flame Strike (`exori flam`), Energy Strike (`exori vis`), Ice Strike (`exori frigo`), Terra Strike (`exori tera`), Death Strike (`exori mort`).
   - **Great Strikes:** Custo de mana mais alto, mas causam o **mesmo dano** que os strikes normais. Em vez de atingir um único alvo, eles expandem para uma área em formato 3x3 ao redor do alvo/posição conjurada (ex: `exori gran flam`, `exori gran vis`, `exori gran frigo`).
 - **Strong Ice Wave (`exevo gran frigo hur`):** Uma poderosa onda direcional de gelo exclusiva para Druids.
+
+## 4. Magias Retrô e Runas Alteradas
+
+Algumas magias e runas clássicas tiveram seus tipos de dano ajustados para melhor se adequarem às mecânicas customizadas:
+- **Runa de Sudden Death (SD):** Causa dano de **Morte** (Death damage), e não dano Físico como no 7.4 padrão.
+- **Ultimate Explosion (`exevo gran mas vis`):** Causa dano **Físico** (Physical damage).
+- **Poison Storm (`exevo gran mas pox`):** Causa dano **Físico** (Physical damage).

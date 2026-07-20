@@ -46,3 +46,10 @@ Mages have access to the full suite of modern single-target strikes with very lo
 - **Normal Strikes:** Flame Strike (`exori flam`), Energy Strike (`exori vis`), Ice Strike (`exori frigo`), Terra Strike (`exori tera`), Death Strike (`exori mort`).
   - **Great Strikes:** Higher mana cost, but deal the **same damage** as normal strikes. Instead of single-target, they expand into a 3x3 AoE area around the target/cast position (e.g., `exori gran flam`, `exori gran vis`, `exori gran frigo`).
 - **Strong Ice Wave (`exevo gran frigo hur`):** A powerful directional ice wave for Druids.
+
+## 4. Altered Retro Spells & Runes
+
+Several classic spells and runes have had their damage types adjusted to better fit the custom mechanics:
+- **Sudden Death Rune (SD):** Deals **Death** damage (not Physical damage like in standard 7.4).
+- **Ultimate Explosion (`exevo gran mas vis`):** Deals **Physical** damage.
+- **Poison Storm (`exevo gran mas pox`):** Deals **Physical** damage.

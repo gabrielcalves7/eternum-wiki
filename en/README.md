@@ -1,4 +1,4 @@
-# Tibia Eternum Wiki
+# Tibia Eternum Wiki - English
 
 Welcome to the Tibia Eternum player wiki. Choose a guide to learn about the server's gameplay systems.
 

@@ -20,7 +20,7 @@
 ## Rolagens de atributos
 
 | Atributo | Máximo base | Categorias elegíveis |
-| --- | --- | --- |
+| --- | ---: | --- |
 | Dano de morte | 4 | Joias, Botas, Aljavas, Armas, Escudos, Mochilas |
 | Dano de terra | 4 | Joias, Botas, Aljavas, Armas, Escudos, Mochilas |
 | Dano de energia | 4 | Joias, Botas, Aljavas, Armas, Escudos, Mochilas |

@@ -39,7 +39,7 @@ function markdownTable(array $headers, array $rows): string
 {
     $header = '| ' . implode(' | ', $headers) . " |\n";
     $divider = '|' . implode('|', array_map(
-        static fn (string $heading): string => str_contains($heading, 'maximum') || str_contains($heading, 'cap') || str_contains($heading, 'chance') || str_contains($heading, 'máximo') || str_contains($heading, 'teto') || str_contains($heading, 'Chance') || str_contains($heading, 'Multiplier') || str_contains($heading, 'Multiplicador') ? ' ---: ' : ' --- ',
+        static fn (string $heading): string => stripos($heading, 'maximum') !== false || stripos($heading, 'máximo') !== false || stripos($heading, 'multiplier') !== false || stripos($heading, 'multiplicador') !== false ? ' ---: ' : ' --- ',
         $headers
     )) . "|\n";
 
@@ -50,7 +50,6 @@ function markdownTable(array $headers, array $rows): string
 }
 
 $basePower = (float) requiredMatch('/local BASE_POWER\\s*=\\s*([0-9.]+)/', $config, 'BASE_POWER')[1];
-$softcapMultiplier = (float) requiredMatch('/local SOFTCAP_MULTIPLIER\\s*=\\s*([0-9.]+)/', $config, 'SOFTCAP_MULTIPLIER')[1];
 $tierBlock = requiredMatch('/TierMultiplier\\s*=\\s*\\{(.*?)\\}/s', $config, 'TierMultiplier')[1];
 preg_match_all('/\\[(\\d+)]\\s*=\\s*([0-9.]+)/', $tierBlock, $tierMatches, PREG_SET_ORDER);
 if ($tierMatches === []) {
@@ -144,7 +143,7 @@ $categoryLabels = [
     'armor' => ['Armor', 'Armaduras'], 'weapons' => ['Weapons', 'Armas'], 'jewelry' => ['Jewelry', 'Joias'], 'all' => ['All equipment', 'Todos os equipamentos'],
 ];
 
-function renderGuide(string $language, float $basePower, float $softcapMultiplier, array $tiers, array $attributes, array $labels, array $categoryLabels): string
+function renderGuide(string $language, float $basePower, array $tiers, array $attributes, array $labels, array $categoryLabels): string
 {
     $isPortuguese = $language === 'pt';
     $title = $isPortuguese ? 'Guia de Atributos' : 'Stat Guide';
@@ -152,7 +151,6 @@ function renderGuide(string $language, float $basePower, float $softcapMultiplie
     $scaleHeading = $isPortuguese ? 'Como as rolagens de atributos escalam' : 'How attribute rolls scale';
     $tierHeading = $isPortuguese ? 'Multiplicadores de tier' : 'Tier multipliers';
     $attributeHeading = $isPortuguese ? 'Rolagens de atributos' : 'Attribute rolls';
-    $softcapText = number_format($softcapMultiplier, 2, '.', '');
     $formula = $isPortuguese
         ? '`máximo = limitar(Poder do Item × fator, 1, máximo base)`'
         : '`maximum = clamp(Item Power × factor, 1, base maximum)`';
@@ -192,8 +190,8 @@ function renderGuide(string $language, float $basePower, float $softcapMultiplie
 }
 
 $guides = [
-    'en/stat-guide.md' => renderGuide('en', $basePower, $softcapMultiplier, $tiers, $attributes, $labels, $categoryLabels),
-    'pt/guia-de-atributos.md' => renderGuide('pt', $basePower, $softcapMultiplier, $tiers, $attributes, $labels, $categoryLabels),
+    'en/stat-guide.md' => renderGuide('en', $basePower, $tiers, $attributes, $labels, $categoryLabels),
+    'pt/guia-de-atributos.md' => renderGuide('pt', $basePower, $tiers, $attributes, $labels, $categoryLabels),
 ];
 $root = dirname(__DIR__);
 

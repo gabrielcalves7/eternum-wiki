@@ -15,39 +15,17 @@ Elite monsters are distinguished by a visual skull effect:
 ## 2. Spawning Mechanics
 
 When a regular monster dies, there is a chance it will instantly trigger an Elite spawn at its death location.
-1. A magic effect corresponding to the Elite's color appears on the ground.
-2. After a short delay, the Elite monster spawns.
 
 ### Spawn Chances
 The base chance for a monster to spawn an Elite is tied to your **Bestiary stage** for that monster. The higher your Bestiary stage, the better the chances of spawning Elites, and you unlock the possibility of finding higher-tier Elites (Red and Black skulls).
 
-*Note: Bosses have an independent chance to spawn as Elite, and monster summons inherit the skull level of their master.*
-
 ## 3. Monster Stat Scaling
 
-When an Elite spawns, it receives massive defensive and offensive buffs:
-- **Condition Immunity:** Immune to Invisibility.
-- **Power & Health:** Damage output and maximum health increase substantially based on the star tier.
-- **Speed:** Movement speed scales up with the tier.
+When an Elite spawns, it receives massive buffs. Elite monsters have more defense, damage, health, and speed.
 
 ## 4. Rewards and Loot
 
 Killing Elite monsters provides highly sought-after rewards.
-
-### Elite Loot Bag
-Extra loot dropped by the Elite system is placed inside a special **Elite Bag** within the monster's corpse. 
-Items dropped in this way:
-- **Roll for Rarity:** Automatically roll for bonus attributes.
-- **Scale Power:** Equipment stats scale relative to the monster's base power.
-- **Pre-Refined:** Items can drop with free refinement levels.
-- **Unique Tag:** Receive a descriptor tag (e.g., *"Dropped by Demon (Red Skull)"*).
-
-### Global Elite Loot
-Every Elite monster has a chance to drop currency and crafting fragments:
-- **Coins:** Platinum and Gold Coins.
-- **Orb Fragments:** Special, Ascension, Highroller, and Fortification Orb Fragments.
-
-The drop chance and maximum count for these items increase significantly with the skull level.
 
 ### Monster-Specific Elite Loot
 Specific monsters have custom Elite drop tables, unlocking extremely rare items at higher skull tiers (e.g., Dragon Lance from Yellow Skull+ Dragon Lords).

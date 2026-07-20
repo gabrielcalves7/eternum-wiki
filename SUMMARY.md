@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tibia Eternum Wiki](README.md)
+* [Tibia Eternum Wiki - English](README.md)
   * [Custom Areas](en/custom-areas.md)
   * [PvP Hotkeys](en/hotkeys.md)
   * [Daily Tasks](en/tasks.md)
@@ -21,7 +21,7 @@
   * [Sacrifice System](en/sacrifice-system.md)
   * [Sets System](en/sets-system.md)
   * [Custom Spells](en/spells.md)
-* [Wiki Tibia Eternum](pt/README.md)
+* [Tibia Eternum Wiki - Portuguese](pt/README.md)
   * [Áreas Customizadas](pt/areas-customizadas.md)
   * [Atalhos no PvP](pt/atalhos.md)
   * [Tarefas Diárias](pt/tarefas.md)

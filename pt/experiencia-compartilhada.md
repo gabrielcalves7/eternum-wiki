@@ -16,8 +16,8 @@ Abrace o poder da Experiência Compartilhada e embarque em uma jornada épica ao
 
 ## Informações de Bônus
 
-Quando qualquer vocação é repetida — independentemente do tamanho do grupo de caça — o bônus é limitado a 10%.
+O bônus de experiência depende do número de jogadores e se vocês possuem vocações únicas na party:
 
-- **Bônus de Caça (2 vocações, iguais ou diferentes):** 10% de experiência extra ao caçar com duas vocações, mesmo que sejam iguais.
-- **Bônus de Caça (3 vocações diferentes):** 15% de experiência extra ao caçar com três vocações diferentes.
-- **Bônus de Caça (4 vocações diferentes):** 20% de experiência extra ao caçar com quatro vocações diferentes.
+- **2 Jogadores:** 20% de experiência extra (se ambos tiverem vocações diferentes), ou 15% se forem iguais.
+- **3 Jogadores:** 35% de experiência extra (se todos os 3 tiverem vocações diferentes), ou 20% se alguma se repetir.
+- **4 ou mais Jogadores:** 65% de experiência extra (se todas as 4 vocações estiverem presentes), ou 35% se alguma se repetir.

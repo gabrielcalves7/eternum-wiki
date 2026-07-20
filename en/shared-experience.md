@@ -16,8 +16,8 @@ Embrace the power of Shared Experience and embark on an epic journey alongside y
 
 ## Bonus Information
 
-When any vocation is repeated—regardless of hunting party size—the bonus is capped at 10%.
+The experience bonus depends on the number of players and whether you have unique vocations in the party:
 
-- **Hunting Bonus (2 vocations, same or different):** 10% extra experience when hunting with two vocations, even if they are the same.
-- **Hunting Bonus (3 different vocations):** 15% extra experience when hunting with three different vocations.
-- **Hunting Bonus (4 different vocations):** 20% extra experience when hunting with four different vocations.
+- **2 Players:** 20% extra experience (if both are different vocations), or 15% if they are the same.
+- **3 Players:** 35% extra experience (if all 3 are different vocations), or 20% if any are repeated.
+- **4 or more Players:** 65% extra experience (if all 4 vocations are present), or 35% if any are repeated.

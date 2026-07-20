@@ -1,11 +1,8 @@
 # Tibia Eternum Wiki
 
-Welcome to the Tibia Eternum player wiki.
+Welcome to the Tibia Eternum player wiki. Choose a guide to learn about the server's gameplay systems.
 
-## Guides
-
-- Forge System
-- Hotkeys
-- Tasks
-- Custom Areas
-- Spells
+- [Forge System](forge-system.md)
+- [PvP Hotkeys](hotkeys.md)
+- [Daily Tasks](tasks.md)
+- [Custom Areas](custom-areas.md)

@@ -1,6 +1,6 @@
-# Monster Star (Elite) System
+# Elite Monster System
 
-The Monster Star System transforms ordinary monsters into powerful "Elite" variants. These elites feature enhanced stats, unique visual effects, and significantly improved rewards.
+The Elite Monster System transforms ordinary monsters into powerful "Elite" variants. These elites feature enhanced stats, unique visual effects, and significantly improved rewards.
 
 ## 1. Star Levels & Visuals
 
@@ -21,7 +21,7 @@ The base chance for a monster to spawn an Elite is tied to your **Bestiary stage
 
 ## 3. Monster Stat Scaling
 
-When an Elite spawns, it receives massive buffs. Elite monsters have more defense, damage, health, and speed.
+When an Elite spawns, it receives massive buffs. The skull colors act as modifiers that boost the monsters' power, meaning higher-tier skulls provide significantly more defense, damage, health, and speed.
 
 ## 4. Rewards and Loot
 

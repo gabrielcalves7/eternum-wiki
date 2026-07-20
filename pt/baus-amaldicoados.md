@@ -15,19 +15,18 @@ Os Baús Amaldiçoados aparecem em quatro tiers (níveis) distintos, que determi
 
 ## 2. Encontrando os Baús
 
-Os Baús Amaldiçoados aparecem aleatoriamente ao redor das principais cidades. Você pode identificá-los facilmente pelo efeito mágico de "morcegos" e pelo texto flutuante acima deles, indicando seu tier (ex: "Legendary Cursed Chest").
+Os Baús Amaldiçoados aparecem aleatoriamente ao redor das principais cidades. Você pode identificá-los facilmente pelo texto flutuante acima deles, indicando seu tier (ex: "Legendary Cursed Chest").
 
 ## 3. O Evento (Ondas e Combate)
 
 Abrir um baú inicia o evento. O jogador (e quem mais estiver perto) deverá derrotar **5 ondas** de monstros.
 
-- **Dificuldade Crescente:** O poder dos monstros escala progressivamente da onda 1 até a 5.
-- **Caveiras e Dificuldade (Skulls):** Monstros têm chances crescentes de nascer com caveiras de nível maior (White, Green, Yellow, Red, Black). Na onda 5, a chance de encontrar monstros Red e Black skull é significativamente maior.
-- **Aviso (Blink):** Antes de um monstro nascer, o tile em que ele vai aparecer pisca com uma contagem regressiva e o efeito da caveira, dando tempo para o jogador se preparar.
+- **Dificuldade Crescente:** O poder dos monstros escala progressivamente da onda 1 até a 5. Na onda 5, a chance de encontrar monstros Elite de alto nível é significativamente maior.
+- **Aviso (Blink):** Antes de um monstro nascer, o tile em que ele vai aparecer pisca com uma contagem regressiva, dando tempo para o jogador se preparar.
 - **Limites de Tempo:** Você deve derrotar as ondas rapidamente. Se demorar muito, a próxima onda começará à força!
 
 ## 4. Recompensas
 
-Se os jogadores vencerem as 5 ondas, o baú é desbloqueado (indicado por um efeito de embrulho de presente e a mensagem "Chest Unlocked!"). Você terá então **60 segundos** para pegar as recompensas dentro dele, antes que desapareça.
+Se os jogadores vencerem as 5 ondas, o baú é desbloqueado. Você terá então **60 segundos** para pegar as recompensas dentro dele, antes que desapareça.
 
 Aqueles que concluírem com sucesso o desafio dos Baús Amaldiçoados receberão ótimas recompensas, que incluem equipamentos poderosos e diversas orbes de upgrade usadas no sistema de Forja. A qualidade e raridade das recompensas escalam diretamente com o tier do baú derrotado.

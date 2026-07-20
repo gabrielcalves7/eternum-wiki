@@ -1,6 +1,6 @@
-# Sistema de Estrelas de Monstros (Elite)
+# Sistema de Monstros Elite
 
-O Sistema de Estrelas transforma monstros comuns em poderosas variantes "Elite". Esses elites apresentam atributos aprimorados, efeitos visuais únicos e recompensas significativamente melhores.
+O Sistema de Monstros Elite transforma monstros comuns em poderosas variantes "Elite". Esses elites apresentam atributos aprimorados, efeitos visuais únicos e recompensas significativamente melhores.
 
 ## 1. Níveis de Estrela e Visuais
 
@@ -21,7 +21,7 @@ A chance base de um monstro se tornar um Elite está ligada ao seu **nível de B
 
 ## 3. Escalonamento de Atributos do Monstro
 
-Quando um Elite surge, ele recebe bônus massivos. Monstros Elite possuem mais defesa, dano, vida e velocidade.
+Quando um Elite surge, ele recebe bônus massivos. As cores das caveiras funcionam como modificadores que aumentam o poder dos monstros, o que significa que caveiras de níveis mais altos fornecem significativamente mais defesa, dano, vida e velocidade.
 
 ## 4. Recompensas e Loot
 

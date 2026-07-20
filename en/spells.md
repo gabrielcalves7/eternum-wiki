@@ -20,7 +20,7 @@ Eternum features many new harmful status conditions (like Bleeding, Freezing, Da
 
 ### Mass Cleanse (`exana mas res`)
 - **Vocation:** Druids.
-- **Effect:** An AoE support spell that affects a 3x3 area around the caster. It simultaneously heals allies and applies the `Purify` effect, cleansing all negative DoT conditions from every player hit.
+- **Effect:** An AoE support spell that affects a large circular area (radius 3) around the caster. It simultaneously heals allies and applies the `Purify` effect, cleansing all negative DoT conditions from every player hit.
 
 ### Specific Cures
 - **Discharge (`exana vis`):** Instantly cures the Energy (electrified) condition.
@@ -31,18 +31,18 @@ Eternum features many new harmful status conditions (like Bleeding, Freezing, Da
 To provide a more dynamic combat experience, Eternum includes many spells normally found in versions 8.0+:
 
 ### Knight Spells
-- **Fierce Berserk (`exori gran`):** A significantly stronger version of Berserk that deals massive physical damage in a 3x3 area.
-- **Groundshaker (`exori mas`):** An even larger AoE physical attack that hits a 5x5 square around the Knight.
+- **Fierce Berserk (`exori gran`):** A significantly stronger version of Berserk that deals massive physical damage in a 3x3 area (`AREA_SQUARE1X1`).
+- **Groundshaker (`exori mas`):** An even larger AoE physical attack that hits a large circular area (radius 3 / `AREA_CIRCLE3X3`) around the Knight.
 - **Whirlwind Throw (`exori hur`):** Allows Knights to attack from a distance by throwing their weapon (3-tile range).
 
 ### Paladin Spells
 - **Ethereal Spear (`exori con`):** A single-target ranged physical attack spell that scales with Distance skill and Level.
 - **Divine Healing (`exura san`):** A fast, highly efficient heal specifically tailored for Paladins.
 - **Holy Strike (`exori san`):** A single-target holy damage attack.
-- **Divine Caldera (`exevo mas san`):** An AoE holy damage explosion around the Paladin.
+- **Divine Caldera (`exevo mas san`):** An AoE holy damage explosion in a large circular area (radius 3 / `AREA_CIRCLE3X3`) around the Paladin.
 
 ### Mage Elemental Strikes
 Mages have access to the full suite of modern single-target strikes with very low cooldowns, allowing them to weave spells between rune attacks:
 - **Normal Strikes:** Flame Strike (`exori flam`), Energy Strike (`exori vis`), Ice Strike (`exori frigo`), Terra Strike (`exori tera`), Death Strike (`exori mort`).
-- **Great Strikes:** Higher mana, significantly higher damage versions (e.g., `exori gran flam`, `exori gran vis`, `exori gran ice`).
+  - **Great Strikes:** Higher mana cost, but deal the **same damage** as normal strikes. Instead of single-target, they expand into a 3x3 AoE area around the target/cast position (e.g., `exori gran flam`, `exori gran vis`, `exori gran frigo`).
 - **Strong Ice Wave (`exevo gran frigo hur`):** A powerful directional ice wave for Druids.

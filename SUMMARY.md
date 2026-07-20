@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Tibia Eternum Wiki](README.md)
 * [Tibia Eternum Wiki](en/README.md)
   * [Custom Areas](en/custom-areas.md)
   * [Forge System](en/forge-system.md)

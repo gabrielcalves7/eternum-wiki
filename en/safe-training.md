@@ -28,20 +28,15 @@ Use Exercise Weapons on Training Dummies to train your skills efficiently. (Swor
 
 ![](../assets/custom/exerciseSword.gif)
 
-![](../assets/custom/exerciseSword.gif)
-
 ### Training Dummies
 
 - **Standard Dummy:** Scattered across the map.
-  ![](../assets/custom/dummy1.png)
   ![](../assets/custom/dummy1.png)
 - **Expert Dummy:** Can be placed by the player anywhere (outside Protection Zone) they desire using a **Dummy Ticket**.
   - +20% Efficiency Bonus compared to standard dummies
   - *Restrictions apply on where they can be placed (e.g., not blocking paths).*
   ![](../assets/custom/dummy2.png)
-  ![](../assets/custom/dummy2.png)
 - **Dummy Ticket:** Use this item to spawn your personal dummy.
-  ![](../assets/custom/dummyticket.png)
   ![](../assets/custom/dummyticket.png)
 
 ## Auto Trainer

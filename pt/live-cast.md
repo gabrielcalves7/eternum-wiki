@@ -4,13 +4,9 @@ O sistema de Live Cast permite que os jogadores transmitam sua jogabilidade enqu
 
 ![](../assets/custom/livecast.png)
 
-![](../assets/custom/livecast.png)
-
 ## Menu no Jogo
 
 Procure o ícone de Live Cast na interface do seu jogo para começar a transmitir!
-
-![](../assets/custom/liveCastIcon.png)
 
 ![](../assets/custom/liveCastIcon.png)
 

@@ -4,13 +4,9 @@ The Live Cast system allows players to broadcast their gameplay while offering s
 
 ![](../assets/custom/livecast.png)
 
-![](../assets/custom/livecast.png)
-
 ## In-game Menu
 
 Look for the Live Cast icon in your game interface to start broadcasting!
-
-![](../assets/custom/liveCastIcon.png)
 
 ![](../assets/custom/liveCastIcon.png)
 

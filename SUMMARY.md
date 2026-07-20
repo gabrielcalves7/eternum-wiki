@@ -13,6 +13,7 @@
   * [Dungeons](en/dungeons.md)
   * [Item Protection](en/item-protection.md)
   * [Market](en/market.md)
+  * [Cursed Chests](en/cursed-chests.md)
 * [Wiki Tibia Eternum](pt/README.md)
   * [Áreas Customizadas](pt/areas-customizadas.md)
   * [Atalhos no PvP](pt/atalhos.md)
@@ -26,3 +27,4 @@
   * [Masmorras](pt/masmorras.md)
   * [Proteção de Item](pt/protecao-de-item.md)
   * [Mercado](pt/mercado.md)
+  * [Baús Amaldiçoados](pt/baus-amaldicoados.md)

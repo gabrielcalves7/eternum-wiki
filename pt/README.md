@@ -4,7 +4,7 @@ Bem-vindo à wiki de jogadores do Tibia Eternum. Encontre aqui os guias de mecâ
 
 ## Guias
 
-- [Sistema de Forja](sistema-de-forja.md)
+- [Sistemas de Upgrade](sistemas-de-upgrade.md)
 - [Atalhos no PvP](atalhos.md)
 - [Tarefas Diárias](tarefas.md)
 - [Áreas Customizadas](areas-customizadas.md)

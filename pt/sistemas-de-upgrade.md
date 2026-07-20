@@ -1,8 +1,8 @@
-# Sistema de Forja
+# Sistemas de Upgrade
 
 ![Interface de forja](../.gitbook/assets/forge-system.png)
 
-O equipamento evolui de Common até Mythic. Use a interface de forja nas bigornas; o Casino possui uma bigorna +1 e pode ser acessado pelo teleporte do templo da cidade.
+O equipamento evolui de Common até Mythic. Use a interface de upgrade nas bigornas. As bigornas ficam no andar +1 do Casino, acessível pelo teleporte do templo da cidade.
 
 ## Raridade e tiers
 
@@ -12,12 +12,12 @@ O equipamento evolui de Common até Mythic. Use a interface de forja nas bigorna
 
 ![Cleanse Orb para reduzir a raridade com segurança](../.gitbook/assets/downgrade-orb.gif)
 
-* Cleanse Orb reduz a raridade com segurança.
+* Cleanse Orb reduz a raridade com segurança, sem colocar o item em risco.
 
 ![Ascension Orb para aumentar o tier](../.gitbook/assets/ascension-orb.gif)
 
 * Ascension Orb aumenta o tier em uma bigorna.
-* Drops de monstros normalmente chegam ao Tier 4. Use Ascension para tiers maiores; Mythic exige Tier 6.
+* Drops de monstros normalmente chegam ao Tier 4. Use Ascension para passar do Tier 4; Mythic exige Tier 6.
 
 | Tier   | Multiplicador |
 | ------ | ------------: |
@@ -36,4 +36,4 @@ Refinement aumenta Attack e Defense brutos até +10. Um sucesso aumenta o nível
 
 ![Highroller Orb para sortear atributos](../.gitbook/assets/highroller-orb.gif)
 
-Highroller Orb pode ser usado em item com raridade maior que 1 e mantém os tipos de atributos enquanto sorteia seus valores numéricos.
+Highroller Orb pode ser usado em item com raridade maior que 1 e mantém os tipos de atributos enquanto refaz o sorteio de seus valores numéricos.

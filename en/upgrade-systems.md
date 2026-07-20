@@ -1,8 +1,8 @@
-# Forge System
+# Upgrade Systems
 
 ![Forge interface](../.gitbook/assets/forge-system.png)
 
-Equipment rarity progresses from Common to Mythic. Use the forge interface at anvils; the casino includes a +1 anvil and can be reached from the city temple teleport.
+Equipment rarity progresses from Common to Mythic. Use the upgrade interface at anvils. Anvils are on the Casino's +1 floor, which you can reach through the city temple teleport.
 
 ## Rarity and tiers
 
@@ -12,12 +12,12 @@ Equipment rarity progresses from Common to Mythic. Use the forge interface at an
 
 ![Cleanse Orb for safe rarity downgrades](../.gitbook/assets/downgrade-orb.gif)
 
-* Cleanse Orb safely downgrades rarity.
+* Cleanse Orb safely downgrades rarity, so you can change rarity without risking the item.
 
 ![Ascension Orb for tier upgrades](../.gitbook/assets/ascension-orb.gif)
 
 * Ascension Orb raises an item's tier at an anvil.
-* Monster drops normally reach Tier 4; use Ascension for higher tiers. Mythic rarity requires Tier 6.
+* Monster drops normally reach Tier 4; use Ascension to go beyond Tier 4. Mythic rarity requires Tier 6.
 
 | Tier   | Multiplier |
 | ------ | ---------: |
@@ -36,4 +36,4 @@ Refinement boosts an item's raw Attack and Defense to +10. A successful Refineme
 
 ![Highroller Orb for attribute rerolls](../.gitbook/assets/highroller-orb.gif)
 
-Highroller Orb can be used on rarity greater than 1. It keeps attribute types such as Attack and Crit, while randomizing their numeric values.
+Highroller Orb can be used on rarity greater than 1. It keeps attribute types such as Attack and Crit, while rerolling their numeric values.

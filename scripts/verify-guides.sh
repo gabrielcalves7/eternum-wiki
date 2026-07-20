@@ -32,9 +32,9 @@ check_images() {
 }
 
 pages=(
-  en/forge-system.md en/hotkeys.md en/tasks.md en/custom-areas.md
+  en/upgrade-systems.md en/hotkeys.md en/tasks.md en/custom-areas.md
   en/stat-guide.md
-  pt/sistema-de-forja.md pt/atalhos.md pt/tarefas.md pt/areas-customizadas.md
+  pt/sistemas-de-upgrade.md pt/atalhos.md pt/tarefas.md pt/areas-customizadas.md
   pt/guia-de-atributos.md
 )
 
@@ -43,9 +43,9 @@ for page in "${pages[@]}"; do
   check_images "$page"
 done
 
-require_text en/forge-system.md '# Forge System'
-require_text en/forge-system.md 'Tier 6'
-require_text en/forge-system.md '+10'
+require_text en/upgrade-systems.md '# Upgrade Systems'
+require_text en/upgrade-systems.md 'Tier 6'
+require_text en/upgrade-systems.md '+10'
 require_text en/hotkeys.md '# PvP Hotkeys'
 require_text en/hotkeys.md 'Magic Wall'
 require_text en/tasks.md '# Daily Tasks'
@@ -57,9 +57,9 @@ require_text en/custom-areas.md '50 Lizard Scales'
 require_text en/custom-areas.md '50 Lizard Leathers'
 require_text en/stat-guide.md '# Stat Guide'
 
-require_text pt/sistema-de-forja.md '# Sistema de Forja'
-require_text pt/sistema-de-forja.md 'Tier 6'
-require_text pt/sistema-de-forja.md '+10'
+require_text pt/sistemas-de-upgrade.md '# Sistemas de Upgrade'
+require_text pt/sistemas-de-upgrade.md 'Tier 6'
+require_text pt/sistemas-de-upgrade.md '+10'
 require_text pt/atalhos.md '# Atalhos no PvP'
 require_text pt/atalhos.md 'Magic Wall'
 require_text pt/tarefas.md '# Tarefas Diárias'

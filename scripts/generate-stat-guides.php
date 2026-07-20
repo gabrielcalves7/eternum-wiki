@@ -66,6 +66,7 @@ ksort($tiers, SORT_NUMERIC);
 
 $attributesBlock = requiredMatch('/local AttributesConfig\\s*=\\s*\\{(.*)\\n\\}/s', $config, 'AttributesConfig')[1];
 preg_match_all('/^\\s*(\\w+)\\s*=\\s*\\{\\s*(.*?)^\\s*\\},?/ms', $attributesBlock, $groupMatches, PREG_SET_ORDER);
+preg_match_all('/\\{\\s*id\\s*=\\s*(ITEM_RND_[A-Z0-9_]+)\\b[^}]*\\}/', $attributesBlock, $activeRowMatches, PREG_SET_ORDER);
 
 $attributes = [];
 foreach ($groupMatches as $group) {
@@ -86,8 +87,23 @@ foreach ($groupMatches as $group) {
         ];
     }
 }
-if ($attributes === []) {
-    fwrite(STDERR, "Unable to parse attribute rows from rarityAttributes.lua.\n");
+$activeEnums = array_column($activeRowMatches, 1);
+$parsedEnums = array_column($attributes, 'enum');
+$expectedEnums = $activeEnums;
+$actualEnums = $parsedEnums;
+sort($expectedEnums, SORT_STRING);
+sort($actualEnums, SORT_STRING);
+if (
+    $activeEnums === []
+    || count($activeEnums) !== count(array_unique($activeEnums))
+    || count($parsedEnums) !== count(array_unique($parsedEnums))
+    || $expectedEnums !== $actualEnums
+) {
+    fwrite(
+        STDERR,
+        'Unable to parse every active attribute row from rarityAttributes.lua '
+        . '(expected ' . count($activeEnums) . ' unique rows, parsed ' . count($parsedEnums) . ").\n"
+    );
     exit(1);
 }
 usort($attributes, static fn (array $left, array $right): int => [$left['group'], $left['enum']] <=> [$right['group'], $right['enum']]);

@@ -20,6 +20,7 @@
   * [Monster Star System](en/monster-star-system.md)
   * [Sacrifice System](en/sacrifice-system.md)
   * [Sets System](en/sets-system.md)
+  * [Custom Spells](en/spells.md)
 * [Wiki Tibia Eternum](pt/README.md)
   * [Áreas Customizadas](pt/areas-customizadas.md)
   * [Atalhos no PvP](pt/atalhos.md)
@@ -40,3 +41,4 @@
   * [Sistema de Estrelas de Monstros](pt/sistema-de-estrelas-de-monstros.md)
   * [Sistema de Sacrifício](pt/sistema-de-sacrificio.md)
   * [Sistema de Conjuntos](pt/sistema-de-conjuntos.md)
+  * [Magias Customizadas](pt/magias.md)

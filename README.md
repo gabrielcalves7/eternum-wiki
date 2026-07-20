@@ -21,3 +21,4 @@ Welcome to the Tibia Eternum player wiki. Choose a guide to learn about the serv
 * [Monster Star System](en/monster-star-system.md)
 * [Sacrifice System](en/sacrifice-system.md)
 * [Sets System](en/sets-system.md)
+* [Custom Spells](en/spells.md)

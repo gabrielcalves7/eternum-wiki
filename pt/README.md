@@ -23,3 +23,4 @@ Bem-vindo à wiki de jogadores do Tibia Eternum. Encontre aqui os guias de mecâ
 - [Sistema de Estrelas de Monstros](sistema-de-estrelas-de-monstros.md)
 - [Sistema de Sacrifício](sistema-de-sacrificio.md)
 - [Sistema de Conjuntos](sistema-de-conjuntos.md)
+- [Magias Customizadas](magias.md)

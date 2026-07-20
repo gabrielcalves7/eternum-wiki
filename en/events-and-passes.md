@@ -30,33 +30,10 @@ As you level up your Battlepass, you unlock rewards. Premium players receive the
 The Dynamic Boss is the powerful, rare boss you face after completing a daily task. These bosses have dynamic abilities, enhanced stats, and special loot.
 
 ### Boss Tiers
+Bosses can spawn as Diabolic, Insane, or Legendary, with each tier being significantly stronger and offering better loot than the last. They can also use special abilities like summoning minions and casting devastating area-of-effect spells.
 
-When a monster transforms into a Dynamic Boss, it receives one of three prefixes, determining its strength and rewards:
-- **Diabolic:** High power, speed, and loot chances.
-- **Insane:** Very high power, speed, and better loot chances.
-- **Legendary:** Extreme power, speed, and the highest loot multipliers.
-
-Boss strength scales directly with the base monster's power.
-
-### Visual Identification
-
-Dynamic bosses stand out visually from normal monsters. They have:
-- **Special Shaders:** (e.g., Stars, Static, Sun, Rainbow, Glitch).
-- **Auras:** (e.g., Black/Death, Electric/Energy, Inferno Balls/Fire).
-
-### Combat Mechanics
-
-Dynamic Bosses feature enhanced AI:
-- **Summoning Minions:** The boss can summon copies of its base monster form to overwhelm players.
-- **Wave of Destruction:** A devastating, expanding area-of-effect spell matching the boss's aura element (Death, Energy, or Fire). It deals heavy damage that scales with the boss's tier.
-
-### Loot Mechanics
-
+### Boss Loot
 > [!IMPORTANT]  
 > The primary loot reward goes to the **highest damage dealer**.
 
-When the boss is defeated, its specialized loot is placed inside a Special Backpack. 
-1. The backpack contains guaranteed drops and random drops with boosted chances.
-2. Items dropped are eligible to roll rarity and power attributes, scaling with the boss's strength.
-3. The filled backpack is **automatically sent to the highest damage dealer's Thais Depot**. 
-4. If the depot is full, the backpack is deposited into the boss's corpse instead.
+When defeated, the boss's loot is placed in a Special Backpack. This backpack is **automatically sent to the Thais Depot of the player who dealt the most damage**.

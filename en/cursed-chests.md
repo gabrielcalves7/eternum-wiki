@@ -13,22 +13,18 @@ Cursed Chests come in four distinct tiers, which determine the minimum level req
 | 3 | Epic | 60 | 30% | 4 |
 | 4 | Legendary | 90 | 10% | 4 |
 
-## 2. Spawn Mechanics
+## 2. Locating Chests
 
-- **Interval:** New chests attempt to spawn every hour (60 minutes).
-- **Locations:** Chests spawn within a 500-tile radius around the temple positions of major towns (Ankrahmun, Darashia, Thais, Carlin, Edron, Venore, Ab'Dendriel, Yalahar, Svargrond). 
-- **Distance Constraints:** Chests will not spawn closer than 100 tiles from a town temple, and they are spaced out at least 15 tiles from other active chests.
-- **Capacity:** The server spawns up to 6 chests globally per cycle.
-- **Visuals:** When idle, chests emit an animated "bats" magic effect and display floating text indicating their tier (e.g., "Legendary Cursed Chest").
+Cursed Chests spawn randomly around major towns. You can easily spot them by the animated "bats" effect and the floating text above them indicating their tier (e.g., "Legendary Cursed Chest"). 
 
 ## 3. The Event (Waves & Combat)
 
 Opening a chest triggers the event. The player (and anyone nearby) must defeat **5 waves** of monsters.
 
-- **Monsters Selection:** The monsters for the waves are pulled dynamically from the daily tasks monster pool, based on the chest's tier. The monsters scale progressively in power from Wave 1 to Wave 5.
-- **Skulls and Difficulty:** Monsters have an increasing chance to spawn with higher-tier skulls (White, Green, Yellow, Red, Black). Skulls act as modifiers that boost the monsters' power. By Wave 5, the chances of encountering Red and Black skull monsters are significantly higher.
-- **Blink Warnings:** Before a monster spawns, the tile where it will appear blinks with a countdown (in seconds) and a skull effect, giving players time to prepare or reposition.
-- **Time Limits:** There is a 5-minute timeout forcing the next wave if monsters are not cleared promptly, and a 1-hour overall timeout before the chest despawns entirely.
+- **Scaling Difficulty:** The monsters scale progressively in power from Wave 1 to Wave 5.
+- **Skulls and Difficulty:** Monsters have an increasing chance to spawn with higher-tier skulls (White, Green, Yellow, Red, Black). By Wave 5, the chances of encountering Red and Black skull monsters are significantly higher.
+- **Blink Warnings:** Before a monster spawns, the tile where it will appear blinks with a countdown and a skull effect, giving players time to prepare or reposition.
+- **Time Limits:** You must defeat the waves promptly. If you take too long, the next wave will be forced upon you!
 
 ## 4. Rewards
 

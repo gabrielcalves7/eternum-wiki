@@ -30,33 +30,10 @@ Ao subir o nível do seu Battlepass, você desbloqueia recompensas. Jogadores Pr
 O Boss Dinâmico é o chefe raro e poderoso que você enfrenta após concluir uma missão diária (daily task). Esses chefes possuem habilidades dinâmicas, atributos aprimorados e loot especial.
 
 ### Níveis de Boss
+Os chefes podem surgir como Diabolic (Diabólico), Insane (Insano) ou Legendary (Lendário), com cada nível sendo significativamente mais forte e oferecendo loots melhores que o anterior. Eles também usam habilidades especiais, como invocar servos e conjurar magias em área devastadoras.
 
-Quando um monstro se transforma em um Boss Dinâmico, ele recebe um de três prefixos que determinam sua força e recompensas:
-- **Diabolic (Diabólico):** Alto poder, velocidade e chances de loot.
-- **Insane (Insano):** Poder e velocidade muito altos, com chances de loot ainda melhores.
-- **Legendary (Lendário):** Poder extremo, velocidade e os maiores multiplicadores de loot.
-
-A força do Boss escala diretamente com o poder base do monstro original.
-
-### Identificação Visual
-
-Os chefes dinâmicos se destacam visualmente dos monstros normais. Eles possuem:
-- **Efeitos Visuais Especiais (Shaders):** (ex: Estrelas, Estática, Sol, Arco-íris, Glitch).
-- **Auras:** (ex: Negro/Morte, Elétrico/Energia, Bolas de Fogo/Fogo).
-
-### Mecânicas de Combate
-
-Os chefes dinâmicos possuem uma inteligência artificial aprimorada:
-- **Invocação de Servos:** O chefe pode invocar cópias de sua forma base para sobrecarregar os jogadores.
-- **Onda de Destruição:** Um feitiço devastador de área de efeito em expansão, correspondente ao elemento da aura do chefe. Causa muito dano, escalando com o nível do prefixo do chefe.
-
-### Mecânicas de Loot
-
+### Loot do Boss
 > [!IMPORTANT]  
 > A recompensa principal de loot vai para o **jogador que causou mais dano**.
 
-Quando o chefe é derrotado, seu loot especial é colocado dentro de uma Mochila Especial (Special Backpack).
-1. A mochila contém drops garantidos e drops aleatórios com chances aumentadas.
-2. Os itens dropados têm a chance de ganhar atributos de raridade e poder, escalando com a força do chefe.
-3. A mochila preenchida é **enviada automaticamente para o Depot de Thais do jogador que causou mais dano**.
-4. Se o depot estiver cheio, a mochila será deixada no corpo do chefe.
+Quando derrotado, o loot do chefe é colocado dentro de uma Mochila Especial. Essa mochila é **enviada automaticamente para o Depot de Thais do jogador que causou mais dano**.

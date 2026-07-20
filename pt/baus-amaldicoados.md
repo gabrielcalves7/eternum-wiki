@@ -13,22 +13,18 @@ Os Baús Amaldiçoados aparecem em quatro tiers (níveis) distintos, que determi
 | 3 | Épico | 60 | 30% | 4 |
 | 4 | Lendário | 90 | 10% | 4 |
 
-## 2. Mecânicas de Spawn
+## 2. Encontrando os Baús
 
-- **Intervalo:** Novos baús tentam aparecer a cada hora (60 minutos).
-- **Localizações:** Os baús nascem num raio de 500 tiles em torno dos templos das principais cidades (Ankrahmun, Darashia, Thais, Carlin, Edron, Venore, Ab'Dendriel, Yalahar, Svargrond).
-- **Restrições de Distância:** Baús não nascerão mais perto que 100 tiles de um templo e são espaçados em no mínimo 15 tiles de outros baús ativos.
-- **Capacidade:** O servidor cria até 6 baús globalmente por ciclo.
-- **Visuais:** Enquanto ociosos, os baús emitem um efeito de "morcegos" e exibem um texto flutuante com seu tier (ex: "Legendary Cursed Chest").
+Os Baús Amaldiçoados aparecem aleatoriamente ao redor das principais cidades. Você pode identificá-los facilmente pelo efeito mágico de "morcegos" e pelo texto flutuante acima deles, indicando seu tier (ex: "Legendary Cursed Chest").
 
 ## 3. O Evento (Ondas e Combate)
 
 Abrir um baú inicia o evento. O jogador (e quem mais estiver perto) deverá derrotar **5 ondas** de monstros.
 
-- **Seleção de Monstros:** Os monstros são escolhidos dinamicamente da lista de tarefas diárias (daily tasks), baseando-se no tier do baú. O poder dos monstros escala progressivamente da onda 1 até a 5.
-- **Caveiras e Dificuldade (Skulls):** Monstros têm chances crescentes de nascer com caveiras de nível maior (White, Green, Yellow, Red, Black). Caveiras funcionam como modificadores de poder. Na onda 5, a chance de encontrar monstros Red e Black skull é significativamente maior.
-- **Aviso (Blink):** Antes de um monstro nascer, o tile em que ele vai aparecer pisca com uma contagem regressiva em segundos e o efeito da caveira, dando tempo de o jogador se preparar ou reposicionar.
-- **Limites de Tempo:** Existe um tempo limite de 5 minutos, que força a próxima onda se a atual não for limpa rapidamente, e um limite de 1 hora no geral, caso contrário o baú desaparece completamente.
+- **Dificuldade Crescente:** O poder dos monstros escala progressivamente da onda 1 até a 5.
+- **Caveiras e Dificuldade (Skulls):** Monstros têm chances crescentes de nascer com caveiras de nível maior (White, Green, Yellow, Red, Black). Na onda 5, a chance de encontrar monstros Red e Black skull é significativamente maior.
+- **Aviso (Blink):** Antes de um monstro nascer, o tile em que ele vai aparecer pisca com uma contagem regressiva e o efeito da caveira, dando tempo para o jogador se preparar.
+- **Limites de Tempo:** Você deve derrotar as ondas rapidamente. Se demorar muito, a próxima onda começará à força!
 
 ## 4. Recompensas
 

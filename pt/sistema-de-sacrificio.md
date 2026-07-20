@@ -13,22 +13,9 @@ Existem quatro categorias globais nas quais os jogadores podem contribuir, cada 
 3. **Skill e Magic Level**: Aumenta a taxa global de progressão de habilidades e nível mágico.
 4. **Chance de Monstros Elite**: Aumenta a chance de monstros nascerem como Elites.
 
-### Níveis e Escalonamento
-Cada categoria evolui com base no total de moedas sacrificadas:
-- **Tier 1 (Mínimo):** Requer uma quantidade base de moedas.
-- **Tier Máximo:** Desbloqueia o bônus mais alto possível para aquela categoria.
+## Como Funciona
+Os jogadores doam Eternum Coins para a categoria que escolherem. Assim que a primeira doação for feita, uma contagem regressiva se inicia. O servidor deve colaborar para doar o máximo de moedas possível antes que o tempo acabe. 
 
-Se as contribuições terminarem entre o tier mínimo e o máximo, o bônus percentual final será calculado dinamicamente de acordo com o valor exato de moedas enviadas.
-
-## A Janela de Contribuição
-
-Quando as primeiras moedas são dadas a uma categoria inativa, a Janela de Sacrifício se abre:
-
-- **Janela Inicial:** 30 minutos. Todos os jogadores são notificados e podem contribuir.
-- **Corrida Final (Final Rush):** Se a categoria atingir o Tier 2, o tempo é reduzido para 2 minutos, criando uma corrida para atingir o nível máximo. Qualquer contribuição nos últimos 60 segundos zera o cronômetro de volta para 2 minutos.
-- **Ativação Instantânea:** Se a categoria alcançar o Tier Máximo, a janela fecha e o bônus máximo é ativado imediatamente.
-
-### Condição de Falha
-Se o tempo acabar e a categoria não tiver alcançado o Limite Mínimo, o sacrifício encerra e nenhum bônus é ativado. As moedas contribuídas são perdidas.
+O poder final do bônus de 1 hora é baseado na quantidade total de moedas doadas por todos os jogadores. Se os jogadores atingirem a meta máxima, a versão mais forte do bônus será ativada imediatamente! Caso o servidor não atinja a quantidade mínima, o sacrifício falha e as moedas são perdidas.
 
 *Nota: Um bônus ativado com sucesso sempre dura exatamente 1 hora. Não é possível contribuir para uma categoria se o bônus dela já estiver ativo.*

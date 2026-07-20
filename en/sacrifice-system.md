@@ -13,22 +13,9 @@ There are four global pools that players can contribute to, each providing a dif
 3. **Skill & Magic**: Boosts the global skill and magic level rate.
 4. **Elite Monster Chance**: Boosts the chance for monsters to spawn as Elite Monsters.
 
-### Tiers & Scaling
-Each category scales based on the total coins sacrificed into its pool:
-- **Tier 1 (Minimum):** Requires a base amount of coins.
-- **Max Tier:** Unlocks the highest possible boost for that category.
+## How it works
+Players donate Eternum Coins to the category of their choice. Once the first contribution is made, a countdown begins. The server must work together to contribute as many coins as possible before the time runs out. 
 
-If the pool concludes between the minimum and max tiers, the final percentage bonus is dynamically calculated based on the exact amount of coins contributed.
-
-## The Contribution Window
-
-When the first coins are contributed to an inactive pool, the Sacrifice Window opens:
-
-- **Initial Window:** 30 minutes. All players are notified and can contribute.
-- **Final Rush:** If the pool reaches Tier 2, the window is reduced to 2 minutes, triggering a "Final Rush" to max out the pool. Any contributions in the last 60 seconds reset the timer back to 2 minutes.
-- **Instant Activation:** If the pool reaches the Max Tier, the window closes instantly, and the maximum boost is triggered immediately.
-
-### Failure Condition
-If the contribution window expires and the pool has not reached the Minimum Threshold, the sacrifice ends, and no boost is activated. The contributed coins are lost.
+The final power of the 1-hour boost is based on the total amount of coins contributed by all players. If players manage to reach the maximum goal, the strongest version of the boost activates immediately! If the server fails to reach the minimum requirement, the sacrifice fails and the coins are lost.
 
 *Note: A successfully activated boost always lasts exactly 1 hour. You cannot contribute to a pool if its boost is already active.*

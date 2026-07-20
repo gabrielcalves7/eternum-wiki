@@ -31,15 +31,15 @@ Eternum features many new harmful status conditions (like Bleeding, Freezing, Da
 To provide a more dynamic combat experience, Eternum includes many spells normally found in versions 8.0+:
 
 ### Knight Spells
-- **Fierce Berserk (`exori gran`):** A significantly stronger version of Berserk that deals massive physical damage in a 3x3 area (`AREA_SQUARE1X1`).
-- **Groundshaker (`exori mas`):** An even larger AoE physical attack that hits a large circular area (radius 3 / `AREA_CIRCLE3X3`) around the Knight.
+- **Fierce Berserk (`exori gran`):** A significantly stronger version of Berserk that deals massive physical damage in a 3x3 area.
+- **Groundshaker (`exori mas`):** An even larger AoE physical attack that hits a large circular area (radius 3) around the Knight.
 - **Whirlwind Throw (`exori hur`):** Allows Knights to attack from a distance by throwing their weapon (3-tile range).
 
 ### Paladin Spells
 - **Ethereal Spear (`exori con`):** A single-target ranged physical attack spell that scales with Distance skill and Level.
 - **Divine Healing (`exura san`):** A fast, highly efficient heal specifically tailored for Paladins.
 - **Holy Strike (`exori san`):** A single-target holy damage attack.
-- **Divine Caldera (`exevo mas san`):** An AoE holy damage explosion in a large circular area (radius 3 / `AREA_CIRCLE3X3`) around the Paladin.
+- **Divine Caldera (`exevo mas san`):** An AoE holy damage explosion in a large circular area (radius 3) around the Paladin.
 
 ### Mage Elemental Strikes
 Mages have access to the full suite of modern single-target strikes with very low cooldowns, allowing them to weave spells between rune attacks:

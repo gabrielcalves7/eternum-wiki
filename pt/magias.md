@@ -31,15 +31,15 @@ O Eternum possui várias novas condições negativas de status (como Bleeding, F
 Para proporcionar uma experiência de combate mais dinâmica, o Eternum inclui muitas magias normalmente encontradas nas versões 8.0+:
 
 ### Magias de Knight
-- **Fierce Berserk (`exori gran`):** Uma versão significativamente mais forte do Berserk que causa dano físico massivo em uma área 3x3 (`AREA_SQUARE1X1`).
-- **Groundshaker (`exori mas`):** Um ataque físico em área ainda maior que atinge uma grande área circular (raio 3 / `AREA_CIRCLE3X3`) ao redor do Knight.
+- **Fierce Berserk (`exori gran`):** Uma versão significativamente mais forte do Berserk que causa dano físico massivo em uma área 3x3.
+- **Groundshaker (`exori mas`):** Um ataque físico em área ainda maior que atinge uma grande área circular (raio 3) ao redor do Knight.
 - **Whirlwind Throw (`exori hur`):** Permite aos Knights atacarem de longe arremessando sua arma (alcance de 3 SQM).
 
 ### Magias de Paladin
 - **Ethereal Spear (`exori con`):** Uma magia de ataque físico à distância contra um único alvo, que escala com nível e skill de Distance.
 - **Divine Healing (`exura san`):** Uma cura rápida e altamente eficiente feita especificamente para Paladins.
 - **Holy Strike (`exori san`):** Um ataque de alvo único causando dano Holy.
-- **Divine Caldera (`exevo mas san`):** Uma explosão em área de dano Holy em uma grande área circular (raio 3 / `AREA_CIRCLE3X3`) ao redor do Paladin.
+- **Divine Caldera (`exevo mas san`):** Uma explosão em área de dano Holy em uma grande área circular (raio 3) ao redor do Paladin.
 
 ### Magias Elementais de Mage (Strikes)
 Os magos têm acesso ao conjunto completo de magias de alvo único (strikes) modernos, com tempos de recarga (cooldowns) muito baixos, permitindo que utilizem magias entre os ataques de runas:

@@ -27,7 +27,7 @@ As you level up your Battlepass, you unlock rewards. Premium players receive the
 
 ## 2. Dynamic Boss System
 
-The Dynamic Boss system randomly transforms standard monsters into powerful, rare bosses with dynamic abilities, enhanced stats, and special loot.
+The Dynamic Boss is the powerful, rare boss you face after completing a daily task. These bosses have dynamic abilities, enhanced stats, and special loot.
 
 ### Boss Tiers
 

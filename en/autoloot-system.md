@@ -20,16 +20,8 @@ The Autoloot System allows players to automatically loot specific items from mon
 ### Capacity Expansion
 - **Mechanic:** Players can permanently increase their maximum autoloot slots by using a specific expansion item.
 
-## Player Commands
-You can manage your autoloot configuration using the `!autoloot` chat command. You can use item names directly.
-
-- `!autoloot add, <name>`: Adds an item to the autoloot list.
-- `!autoloot remove, <name>`: Removes an item from the list.
-- `!autoloot show`: Displays all items currently in the autoloot list.
-- `!autoloot clear`: Empties the autoloot list completely.
-- `!autoloot bankcoins`: Toggles the automatic banking of coins (requires the Midas Permit).
-
-*Note: The command supports both comma-separated (`!autoloot add, gold coin`) and space-separated (`!autoloot add gold coin`) syntax.*
+## Interface Management
+You can easily manage your entire autoloot configuration, including adding or removing items, directly through the client interface.
 
 ## Container Mappings (Categorized Loot)
 You can organize your drops by routing specific categories of items into designated containers (like specific backpacks) within your inventory via the client interface.

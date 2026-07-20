@@ -20,16 +20,8 @@ O Sistema de Autoloot permite que os jogadores coletem automaticamente itens esp
 ### Expansão de Capacidade
 - **Mecânica:** Os jogadores podem aumentar permanentemente o número máximo de espaços do autoloot usando um item específico de expansão.
 
-## Comandos do Jogador
-Você pode gerenciar a sua configuração de autoloot usando o comando de chat `!autoloot`. É possível usar o nome dos itens diretamente.
-
-- `!autoloot add, <nome>`: Adiciona um item à lista de autoloot.
-- `!autoloot remove, <nome>`: Remove um item da lista.
-- `!autoloot show`: Mostra todos os itens atualmente na lista de autoloot.
-- `!autoloot clear`: Esvazia completamente a lista de autoloot.
-- `!autoloot bankcoins`: Ativa/desativa o envio automático de moedas (requer o Midas Permit).
-
-*Nota: O comando suporta separação por vírgula (`!autoloot add, gold coin`) ou espaço (`!autoloot add gold coin`).*
+## Gerenciamento pela Interface
+Você pode gerenciar facilmente toda a sua configuração de autoloot, incluindo a adição ou remoção de itens, diretamente através da interface do client.
 
 ## Mapeamento de Contêineres (Loot Categorizado)
 Você pode organizar seus saques direcionando categorias específicas de itens para contêineres designados (como mochilas específicas) dentro do seu inventário através da interface do client.

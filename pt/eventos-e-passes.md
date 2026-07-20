@@ -27,7 +27,7 @@ Ao subir o nível do seu Battlepass, você desbloqueia recompensas. Jogadores Pr
 
 ## 2. Sistema de Boss Dinâmico
 
-O sistema de Boss Dinâmico transforma aleatoriamente monstros normais em chefes raros e poderosos, com habilidades dinâmicas, atributos aprimorados e loot especial.
+O Boss Dinâmico é o chefe raro e poderoso que você enfrenta após concluir uma missão diária (daily task). Esses chefes possuem habilidades dinâmicas, atributos aprimorados e loot especial.
 
 ### Níveis de Boss
 

@@ -4,13 +4,13 @@ The Monster Star System transforms ordinary monsters into powerful "Elite" varia
 
 ## 1. Star Levels & Visuals
 
-Elite monsters are distinguished by a visual skull effect and a color shader applied to their outfit:
+Elite monsters are distinguished by a visual skull effect:
 
-- **1 Star:** White Skull & White Shader
-- **2 Star:** Green Skull & Green Shader
-- **3 Star:** Yellow Skull & Yellow Shader
-- **4 Star:** Red Skull & Red Shader
-- **5 Star:** Black Skull & Black Shader
+- **1 Star:** White Skull
+- **2 Star:** Green Skull
+- **3 Star:** Yellow Skull
+- **4 Star:** Red Skull
+- **5 Star:** Black Skull
 
 ## 2. Spawning Mechanics
 

@@ -4,13 +4,13 @@ O Sistema de Estrelas transforma monstros comuns em poderosas variantes "Elite".
 
 ## 1. Níveis de Estrela e Visuais
 
-Monstros Elite são distinguidos por um efeito visual de caveira e uma cor aplicada à sua aparência:
+Monstros Elite são distinguidos por um efeito visual de caveira:
 
-- **1 Estrela:** Caveira Branca e Cor Branca
-- **2 Estrelas:** Caveira Verde e Cor Verde
-- **3 Estrelas:** Caveira Amarela e Cor Amarela
-- **4 Estrelas:** Caveira Vermelha e Cor Vermelha
-- **5 Estrelas:** Caveira Preta e Cor Preta
+- **1 Estrela:** Caveira Branca
+- **2 Estrelas:** Caveira Verde
+- **3 Estrelas:** Caveira Amarela
+- **4 Estrelas:** Caveira Vermelha
+- **5 Estrelas:** Caveira Preta
 
 ## 2. Mecânicas de Surgimento (Spawn)
 

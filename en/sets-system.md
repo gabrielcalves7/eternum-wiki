@@ -19,7 +19,4 @@ Bonuses can include various stat improvements such as:
 - Condition Immunities (e.g., paralyze immunity)
 - Increased specific weapon skills (Sword, Axe, Club, Shielding)
 
-## 3. Managing Your Sets
-- **Equipping/Unequipping:** The game automatically calculates and applies your set bonuses the moment you equip or unequip an item.
-- **Valid Slots:** For a piece to count towards the set bonus, it must be equipped in its proper inventory slot (e.g., a helmet must be in the head slot). 
-- Your character's stats and regeneration rates will instantly update to reflect your active set bonuses.
+

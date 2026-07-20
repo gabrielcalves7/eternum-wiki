@@ -19,7 +19,4 @@ Os bônus podem incluir várias melhorias de atributos, tais como:
 - Imunidades a Condições (ex: imunidade a paralisia)
 - Aumento em habilidades de armas específicas (Sword, Axe, Club, Shielding)
 
-## 3. Gerenciando Seus Conjuntos
-- **Equipando/Desequipando:** O jogo calcula e aplica automaticamente os bônus do seu conjunto no instante em que você equipa ou desequipa um item.
-- **Espaços Válidos (Slots):** Para que uma peça conte para o bônus, ela deve estar equipada no seu espaço correto de inventário (ex: um capacete deve estar no slot da cabeça).
-- Os atributos e taxas de regeneração do seu personagem serão atualizados instantaneamente para refletir seus bônus ativos.
+

@@ -140,7 +140,7 @@ $categoryLabels = [
     'melee' => ['Melee weapons', 'Armas corpo a corpo'], 'distance' => ['Distance weapons', 'Armas à distância'], 'wand' => ['Wands', 'Varinhas'],
     'shield' => ['Shields', 'Escudos'], 'amulet' => ['Amulets', 'Amuletos'], 'ring' => ['Rings', 'Anéis'], 'backpack' => ['Backpacks', 'Mochilas'],
     'quiver' => ['Quivers', 'Aljavas'], 'trinket' => ['Trinkets', 'Bugigangas'], 'two-handed' => ['Two-handed weapons', 'Armas de duas mãos'],
-    'armor' => ['Armor', 'Armaduras'], 'weapons' => ['Weapons', 'Armas'], 'jewelry' => ['Jewelry', 'Joias'], 'all' => ['All equipment', 'Todos os equipamentos'],
+    'armor' => ['Armor (Chest, Legs, Helmet)', 'Armadura (Peito, Pernas, Elmo)'], 'weapons' => ['Weapons (Melee, Distance, Wand)', 'Armas (Corpo a Corpo, Distância, Varinha)'], 'jewelry' => ['Jewelry (Amulet, Ring)', 'Joias (Amuleto, Anel)'], 'all' => ['All equipment', 'Todos os equipamentos'],
 ];
 
 function renderGuide(string $language, float $basePower, array $tiers, array $attributes, array $labels, array $categoryLabels): string

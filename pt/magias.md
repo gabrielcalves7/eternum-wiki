@@ -7,7 +7,7 @@ O Eternum usa o protocolo 7.72, mas expande profundamente o sistema de combate a
 No 7.4 padrão, o `exeta res` simplesmente fazia com que o monstro mudasse de alvo para o Knight por um breve momento. No Eternum, ele funciona de forma completamente diferente, sendo um verdadeiro "taunt":
 
 - **Travar Alvo (Aggro Lock):** Ao ser conjurado (`exeta res`), afeta uma área 3x3 ao redor do Knight. Qualquer monstro suscetível atingido fica **travado no Knight por 5 segundos**.
-- **Sem Troca de Alvo:** Durante esses 5 segundos, a chance natural de mudança de alvo (`changeTargetChance`) do monstro é completamente ignorada. Eles não podem trocar de alvo sob nenhuma circunstância.
+- **Sem Troca de Alvo:** Durante esses 5 segundos, a tendência natural do monstro de mudar de alvo é completamente ignorada. Eles não podem trocar de alvo sob nenhuma circunstância.
 - **Sem Fuga:** Mesmo se um monstro chegar à vida crítica (vermelha) ou for um Elite fugitivo, o travamento de 5 segundos os força a continuar lutando.
 
 ## 2. Magias de Limpeza de Condições

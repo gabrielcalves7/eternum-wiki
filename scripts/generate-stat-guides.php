@@ -154,8 +154,8 @@ function renderGuide(string $language, float $basePower, float $softcapMultiplie
     $attributeHeading = $isPortuguese ? 'Rolagens de atributos' : 'Attribute rolls';
     $softcapText = number_format($softcapMultiplier, 2, '.', '');
     $formula = $isPortuguese
-        ? '`máximo = limitar(Poder do Item × fator, 1, máximo base × ' . $softcapText . ')`'
-        : '`maximum = clamp(Item Power × factor, 1, base maximum × ' . $softcapText . ')`';
+        ? '`máximo = limitar(Poder do Item × fator, 1, máximo base)`'
+        : '`maximum = clamp(Item Power × factor, 1, base maximum)`';
 
     $tierRows = [];
     foreach ($tiers as $tier => $multiplier) {
@@ -163,28 +163,28 @@ function renderGuide(string $language, float $basePower, float $softcapMultiplie
     }
     $attributeRows = [];
     foreach ($attributes as $attribute) {
+        if ($attribute['chance'] <= 0) {
+            continue;
+        }
         if (!isset($labels[$attribute['enum']])) {
             fwrite(STDERR, "Missing player-facing label for {$attribute['enum']}.\n");
             exit(1);
         }
         $categories = array_map(static fn (string $category): string => $categoryLabels[$category][$isPortuguese ? 1 : 0] ?? $category, $attribute['categories']);
         $attributeRows[] = [
-            '`' . $attribute['enum'] . '`',
             $labels[$attribute['enum']][$isPortuguese ? 1 : 0],
             formatNumber($attribute['maxValue']),
-            formatNumber($attribute['maxValue'] * $softcapMultiplier),
-            formatNumber($attribute['chance']) . '%',
             implode(', ', $categories),
         ];
     }
     $headers = $isPortuguese
-        ? ['Atributo do servidor', 'Atributo', 'Máximo base', 'Teto suave', 'Chance de rolagem', 'Categorias elegíveis']
-        : ['Server attribute', 'Attribute', 'Base maximum', 'Soft cap', 'Roll chance', 'Eligible categories'];
+        ? ['Atributo', 'Máximo base', 'Categorias elegíveis']
+        : ['Attribute', 'Base maximum', 'Eligible categories'];
     $note = $isPortuguese
         ? 'Gerado de rarityAttributes.lua; não edite manualmente as linhas de atributos.'
         : 'Generated from rarityAttributes.lua; do not edit attribute rows manually.';
 
-    return "# {$title}\n\n> {$source}: `rarityAttributes.lua` — " . ($isPortuguese ? 'Poder Base ' : 'Base Power ') . formatNumber($basePower) . '; ' . ($isPortuguese ? 'Teto Suave ' : 'Soft Cap ') . $softcapText . ".\n\n## {$scaleHeading}\n\n{$formula}\n\n## {$tierHeading}\n\n"
+    return "# {$title}\n\n> {$source}: `rarityAttributes.lua` — " . ($isPortuguese ? 'Poder Base ' : 'Base Power ') . formatNumber($basePower) . ".\n\n## {$scaleHeading}\n\n{$formula}\n\n## {$tierHeading}\n\n"
         . markdownTable([$isPortuguese ? 'Tier' : 'Tier', $isPortuguese ? 'Multiplicador' : 'Multiplier'], $tierRows)
         . "\n## {$attributeHeading}\n\n"
         . markdownTable($headers, $attributeRows)

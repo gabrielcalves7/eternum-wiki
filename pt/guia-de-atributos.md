@@ -1,11 +1,5 @@
 # Guia de Atributos
 
-> Fonte: `rarityAttributes.lua` — Poder Base 300.
-
-## Como as rolagens de atributos escalam
-
-`máximo = limitar(Poder do Item × fator, 1, máximo base)`
-
 ## Multiplicadores de tier
 
 | Tier | Multiplicador |

@@ -147,13 +147,8 @@ function renderGuide(string $language, float $basePower, array $tiers, array $at
 {
     $isPortuguese = $language === 'pt';
     $title = $isPortuguese ? 'Guia de Atributos' : 'Stat Guide';
-    $source = $isPortuguese ? 'Fonte' : 'Source';
-    $scaleHeading = $isPortuguese ? 'Como as rolagens de atributos escalam' : 'How attribute rolls scale';
     $tierHeading = $isPortuguese ? 'Multiplicadores de tier' : 'Tier multipliers';
     $attributeHeading = $isPortuguese ? 'Rolagens de atributos' : 'Attribute rolls';
-    $formula = $isPortuguese
-        ? '`máximo = limitar(Poder do Item × fator, 1, máximo base)`'
-        : '`maximum = clamp(Item Power × factor, 1, base maximum)`';
 
     $tierRows = [];
     foreach ($tiers as $tier => $multiplier) {
@@ -182,7 +177,7 @@ function renderGuide(string $language, float $basePower, array $tiers, array $at
         ? 'Gerado de rarityAttributes.lua; não edite manualmente as linhas de atributos.'
         : 'Generated from rarityAttributes.lua; do not edit attribute rows manually.';
 
-    return "# {$title}\n\n> {$source}: `rarityAttributes.lua` — " . ($isPortuguese ? 'Poder Base ' : 'Base Power ') . formatNumber($basePower) . ".\n\n## {$scaleHeading}\n\n{$formula}\n\n## {$tierHeading}\n\n"
+    return "# {$title}\n\n## {$tierHeading}\n\n"
         . markdownTable([$isPortuguese ? 'Tier' : 'Tier', $isPortuguese ? 'Multiplicador' : 'Multiplier'], $tierRows)
         . "\n## {$attributeHeading}\n\n"
         . markdownTable($headers, $attributeRows)

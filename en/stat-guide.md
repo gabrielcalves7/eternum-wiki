@@ -1,11 +1,5 @@
 # Stat Guide
 
-> Source: `rarityAttributes.lua` — Base Power 300.
-
-## How attribute rolls scale
-
-`maximum = clamp(Item Power × factor, 1, base maximum)`
-
 ## Tier multipliers
 
 | Tier | Multiplier |

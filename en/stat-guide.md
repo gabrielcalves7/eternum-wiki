@@ -51,9 +51,11 @@
 | Skill bonus | 4.7 | Weapons, Shields, Armor, Jewelry, Quivers, Backpacks |
 | Movement speed | 52.5 | Boots, Amulets |
 | Berserk | 4.5 | Chest armor, Legs, Helmet, Trinkets |
+| Crushing blow | 8.5 | Distance weapons, Quivers |
 | Fast hand | 3.5 | Weapons, Jewelry, Boots, Helmet, Backpacks |
 | Multishot | 7.5 | Distance weapons |
 | Paralyze | 4.5 | Weapons |
+| Perseverance | 4.5 | Chest armor, Legs, Helmet, Trinkets |
 | Bleeding | 3.5 | Jewelry, Boots, Weapons, Backpacks |
 | Burning | 3.5 | Jewelry, Boots, Weapons, Backpacks |
 | Electrifying | 3.5 | Jewelry, Boots, Weapons, Backpacks |

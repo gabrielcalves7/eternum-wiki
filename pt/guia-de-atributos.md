@@ -51,9 +51,11 @@
 | Bônus de habilidade | 4.7 | Armas, Escudos, Armaduras, Joias, Aljavas, Mochilas |
 | Velocidade de movimento | 52.5 | Botas, Amuletos |
 | Berserker | 4.5 | Armadura de peito, Pernas, Elmo, Bugigangas |
+| Golpe esmagador | 8.5 | Armas à distância, Aljavas |
 | Mão rápida | 3.5 | Armas, Joias, Botas, Elmo, Mochilas |
 | Disparo múltiplo | 7.5 | Armas à distância |
 | Paralisia | 4.5 | Armas |
+| Perseverança | 4.5 | Armadura de peito, Pernas, Elmo, Bugigangas |
 | Sangramento | 3.5 | Joias, Botas, Armas, Mochilas |
 | Queimadura | 3.5 | Joias, Botas, Armas, Mochilas |
 | Eletrificação | 3.5 | Joias, Botas, Armas, Mochilas |

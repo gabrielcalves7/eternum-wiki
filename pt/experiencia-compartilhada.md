@@ -2,6 +2,10 @@
 
 Prepare-se para melhorar suas aventuras com os membros de sua party (grupo). Com a Experiência Compartilhada habilitada, os pontos de experiência são distribuídos entre todos os membros de sua party, tornando sua jornada ainda mais recompensadora.
 
+![](../assets/sharedexperience/shared_experience.gif)
+
+![](../assets/sharedexperience/shared_experience.gif)
+
 Isso significa que você poderá subir de nível em um ritmo acelerado, forjando personagens mais fortes juntos! Para aproveitar ao máximo a Experiência Compartilhada, há algumas condições a se ter em mente.
 
 - **Membro da Party:** Os jogadores devem entrar em uma party para acessar os benefícios da experiência compartilhada.

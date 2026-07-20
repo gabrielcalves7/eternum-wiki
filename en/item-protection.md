@@ -13,6 +13,10 @@ The **Amulet of Loss** is an essential item for adventurers.
 
 You don't have to choose between protection and stats!
 
+![](../assets/wiki/aol.gif)
+
+![](../assets/wiki/aol.gif)
+
 - **Enchanting:** You can use an AoL to **enchant other amulets** (e.g., Scarf, Platinum amulet and others).
 - **Effect:** The protection effect is transferred to the target amulet.
 - **Benefit:** This allows you to wear powerful amulets while still being protected from item loss.

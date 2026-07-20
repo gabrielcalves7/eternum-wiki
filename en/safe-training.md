@@ -18,19 +18,31 @@ Inside the training zone, **Skills rise 50% slower** and **Mana Regeneration is 
 ## Items
 
 - **Stamina Refill:** Regenerates up to **2 hours** of stamina. Can be used incrementally (e.g., regenerating 30 mins leaves 1h 30m remaining).
+  ![](../assets/custom/healStamina.gif)
 - **Stamina Extension:** Permanently increases your maximum stamina by **+1 hour**. Maximum limit: **12 hours**.
+  ![](../assets/custom/increaseMaximumStamina.png)
 
 ## Exercise Weapons
 
 Use Exercise Weapons on Training Dummies to train your skills efficiently. (Sword, Axe, Club, Distance, Magic Level)
 
+![](../assets/custom/exerciseSword.gif)
+
+![](../assets/custom/exerciseSword.gif)
+
 ### Training Dummies
 
 - **Standard Dummy:** Scattered across the map.
+  ![](../assets/custom/dummy1.png)
+  ![](../assets/custom/dummy1.png)
 - **Expert Dummy:** Can be placed by the player anywhere (outside Protection Zone) they desire using a **Dummy Ticket**.
   - +20% Efficiency Bonus compared to standard dummies
   - *Restrictions apply on where they can be placed (e.g., not blocking paths).*
+  ![](../assets/custom/dummy2.png)
+  ![](../assets/custom/dummy2.png)
 - **Dummy Ticket:** Use this item to spawn your personal dummy.
+  ![](../assets/custom/dummyticket.png)
+  ![](../assets/custom/dummyticket.png)
 
 ## Auto Trainer
 

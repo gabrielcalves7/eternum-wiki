@@ -2,9 +2,17 @@
 
 O sistema de Live Cast permite que os jogadores transmitam sua jogabilidade enquanto oferecem bônus significativos de experiência (EXP) como incentivo para manter as transmissões públicas.
 
+![](../assets/custom/livecast.png)
+
+![](../assets/custom/livecast.png)
+
 ## Menu no Jogo
 
 Procure o ícone de Live Cast na interface do seu jogo para começar a transmitir!
+
+![](../assets/custom/liveCastIcon.png)
+
+![](../assets/custom/liveCastIcon.png)
 
 ## Mecânicas Principais
 

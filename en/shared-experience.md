@@ -2,6 +2,10 @@
 
 Get ready to enhance your gaming adventures with your party members. With Shared Experience enabled, experience points are distributed among all members of your party, making your journey even more rewarding.
 
+![](../assets/sharedexperience/shared_experience.gif)
+
+![](../assets/sharedexperience/shared_experience.gif)
+
 Means you'll be able to level up at an accelerated rate, forging stronger characters together! To make the most of Shared Experience, there are a few conditions to keep in mind.
 
 - **Party Membership:** Players must join a party to access the benefits of shared experience.

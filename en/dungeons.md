@@ -2,6 +2,10 @@
 
 Challenge powerful bosses and earn exclusive rewards!
 
+![](../assets/wiki/dungeon.png)
+
+![](../assets/wiki/dungeon.png)
+
 ## How to Enter
 
 Access the **Dungeon Interface** by clicking the button in the **Client Menu**.

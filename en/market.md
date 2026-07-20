@@ -2,6 +2,10 @@
 
 Buy and sell items with ease using the in-game Market.
 
+![](../assets/custom/market.png)
+
+![](../assets/custom/market.png)
+
 ## Trading Made Simple
 
 The **Market System** allows players to create offers to buy or sell items directly within the client.

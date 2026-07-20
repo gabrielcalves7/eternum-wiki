@@ -2,6 +2,8 @@
 
 Compre e venda itens com facilidade usando o Mercado do jogo.
 
+![](../assets/custom/market.png)
+
 ## Negociação Simples
 
 O **Sistema de Mercado** permite que os jogadores criem ofertas de compra ou venda de itens diretamente no client.

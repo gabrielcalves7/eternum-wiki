@@ -30,7 +30,9 @@ Use Armas de Exercício nos Training Dummies (Bonecos de Treino) para treinar su
 - **Expert Dummy:** Pode ser colocado pelo jogador em qualquer lugar (fora da Protection Zone) que desejar usando um **Dummy Ticket**.
   - Bônus de +20% de Eficiência em comparação aos dummies padrão
   - *Restrições se aplicam sobre onde eles podem ser colocados (ex.: não bloquear caminhos).*
+  ![](../assets/custom/dummy2.png)
 - **Dummy Ticket:** Use este item para invocar seu dummy pessoal.
+  ![](../assets/custom/dummyticket.png)
 
 ## Auto Trainer
 

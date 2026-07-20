@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tibia Eternum Wiki](en/README.md)
+* [Tibia Eternum Wiki](README.md)
   * [Custom Areas](en/custom-areas.md)
   * [Forge System](en/forge-system.md)
   * [PvP Hotkeys](en/hotkeys.md)

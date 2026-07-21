@@ -19,52 +19,52 @@ Ten przewodnik zawiera zestawienie mnożników poziomów oraz losowanych atrybut
 
 | Atrybut | Baza maksymalna | Kwalifikujące się kategorie |
 | --- | ---: | --- |
-| Obrażenia od śmierci | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Obrażenia od ziemi | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Obrażenia od energii | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Obrażenia od ognia | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Obrażenia od świętości | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Obrażenia od lodu | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Obrażenia fizyczne | 4 | Biżuteria (Amulet, Pierścień), Buty, Kołczany, Broń (Zwarcie, Dystans, Różdżka), Tarcze, Plecaki |
-| Pancerz | 5 | Pancerz (Klatka piersiowa, Nogi, Hełm), Amulety |
-| Atak | 9 | Broń do walki w zwarciu, Broń dystansowa |
-| Obrona | 9 | Tarcze |
-| Bonus doświadczenia | 6.6 | Pancerz (Klatka piersiowa, Nogi, Hełm), Biżuteria (Amulet, Pierścień), Plecaki |
-| Szansa na kradzież życia | 4 | Broń (Zwarcie, Dystans, Różdżka), Buty, Biżuteria (Amulet, Pierścień), Hełm |
-| Szansa na kradzież many | 4 | Broń (Zwarcie, Dystans, Różdżka), Buty, Biżuteria (Amulet, Pierścień), Hełm |
-| Odporność | 2.5 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność na śmierć | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność na energię | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność na ogień | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność na świętość | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność na lód | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność fizyczna | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Odporność na truciznę | 3 | Pancerz (Klatka piersiowa, Nogi, Hełm), Tarcze, Biżuteria (Amulet, Pierścień), Plecaki |
-| Szybkość ataku | 3.2 | Biżuteria (Amulet, Pierścień), Pancerz klatki piersiowej, Buty, Broń (Zwarcie, Dystans, Różdżka), Plecaki |
-| Szansa na trafienie krytyczne | 3 | Biżuteria (Amulet, Pierścień), Buty, Broń (Zwarcie, Dystans, Różdżka), Kołczany, Tarcze, Plecaki |
-| Szansa na łup | 15 | Biżuteria (Amulet, Pierścień), Buty, Plecaki |
-| Procent poziomu magii | 3.2 | Różdżki, Pancerz (Klatka piersiowa, Nogi, Hełm), Biżuteria (Amulet, Pierścień), Tarcze, Plecaki |
-| Parowanie | 4 | Tarcze, Pancerz klatki piersiowej, Błyskotki |
-| Strzelec wyborowy | 4 | Pancerz klatki piersiowej, Nogi, Hełm, Kołczany, Błyskotki |
-| Bonus do umiejętności | 4.7 | Broń (Zwarcie, Dystans, Różdżka), Tarcze, Pancerz (Klatka piersiowa, Nogi, Hełm), Biżuteria (Amulet, Pierścień), Kołczany, Plecaki |
-| Szybkość poruszania się | 52.5 | Buty, Amulety |
-| Berserk | 4.5 | Pancerz klatki piersiowej, Nogi, Hełm, Błyskotki |
-| Miażdżący cios | 8.5 | Broń dystansowa, Kołczany |
-| Szybka ręka | 3.5 | Broń (Zwarcie, Dystans, Różdżka), Biżuteria (Amulet, Pierścień), Buty, Hełm, Plecaki |
-| Wielostrzał | 7.5 | Broń dystansowa |
-| Paraliż | 4.5 | Broń (Zwarcie, Dystans, Różdżka) |
-| Wytrwałość | 4.5 | Pancerz klatki piersiowej, Nogi, Hełm, Błyskotki |
-| Krwawienie | 3.5 | Biżuteria (Amulet, Pierścień), Buty, Broń (Zwarcie, Dystans, Różdżka), Plecaki |
-| Podpalenie | 3.5 | Biżuteria (Amulet, Pierścień), Buty, Broń (Zwarcie, Dystans, Różdżka), Plecaki |
-| Porażenie prądem | 3.5 | Biżuteria (Amulet, Pierścień), Buty, Broń (Zwarcie, Dystans, Różdżka), Plecaki |
-| Zatrucie | 3.5 | Biżuteria (Amulet, Pierścień), Buty, Broń (Zwarcie, Dystans, Różdżka), Plecaki |
-| Szansa na uderzenie śmiercią | 21 | Broń (Zwarcie, Dystans, Różdżka) |
-| Szansa na uderzenie ziemią | 21 | Broń (Zwarcie, Dystans, Różdżka) |
-| Szansa na uderzenie energią | 21 | Broń (Zwarcie, Dystans, Różdżka) |
-| Szansa na uderzenie ogniem | 21 | Broń (Zwarcie, Dystans, Różdżka) |
-| Szansa na uderzenie świętością | 21 | Broń (Zwarcie, Dystans, Różdżka) |
-| Szansa na uderzenie lodem | 21 | Broń (Zwarcie, Dystans, Różdżka) |
-| Maksymalne zdrowie | 240 | Biżuteria (Amulet, Pierścień) |
-| Maksymalna mana | 240 | Biżuteria (Amulet, Pierścień) |
+| Death damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Earth damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Energy damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Fire damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Holy damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Ice damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Physical damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
+| Armor | 5 | Armor (Chest, Legs, Helmet), Amulets |
+| Attack | 9 | Melee weapons, Distance weapons |
+| Defense | 9 | Shields |
+| Experience bonus | 6.6 | Armor (Chest, Legs, Helmet), Jewelry (Amulet, Ring), Backpacks |
+| Life leech chance | 4 | Weapons (Melee, Distance, Wand), Boots, Jewelry (Amulet, Ring), Helmet |
+| Mana leech chance | 4 | Weapons (Melee, Distance, Wand), Boots, Jewelry (Amulet, Ring), Helmet |
+| Resistance | 2.5 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Death resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Energy resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Fire resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Holy resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Ice resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Physical resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Poison resistance | 3 | Armor (Chest, Legs, Helmet), Shields, Jewelry (Amulet, Ring), Backpacks |
+| Attack speed | 3.2 | Jewelry (Amulet, Ring), Chest armor, Boots, Weapons (Melee, Distance, Wand), Backpacks |
+| Critical chance | 3 | Jewelry (Amulet, Ring), Boots, Weapons (Melee, Distance, Wand), Quivers, Shields, Backpacks |
+| Loot chance | 15 | Jewelry (Amulet, Ring), Boots, Backpacks |
+| Magic level percentage | 3.2 | Wands, Armor (Chest, Legs, Helmet), Jewelry (Amulet, Ring), Shields, Backpacks |
+| Parry | 4 | Shields, Chest armor, Trinkets |
+| Sharpshooter | 4 | Chest armor, Legs, Helmet, Quivers, Trinkets |
+| Skill bonus | 4.7 | Weapons (Melee, Distance, Wand), Shields, Armor (Chest, Legs, Helmet), Jewelry (Amulet, Ring), Quivers, Backpacks |
+| Movement speed | 52.5 | Boots, Amulets |
+| Berserk | 4.5 | Chest armor, Legs, Helmet, Trinkets |
+| Crushing blow | 8.5 | Distance weapons, Quivers |
+| Fast hand | 3.5 | Weapons (Melee, Distance, Wand), Jewelry (Amulet, Ring), Boots, Helmet, Backpacks |
+| Multishot | 7.5 | Distance weapons |
+| Paralyze | 4.5 | Weapons (Melee, Distance, Wand) |
+| Perseverance | 4.5 | Chest armor, Legs, Helmet, Trinkets |
+| Bleeding | 3.5 | Jewelry (Amulet, Ring), Boots, Weapons (Melee, Distance, Wand), Backpacks |
+| Burning | 3.5 | Jewelry (Amulet, Ring), Boots, Weapons (Melee, Distance, Wand), Backpacks |
+| Electrifying | 3.5 | Jewelry (Amulet, Ring), Boots, Weapons (Melee, Distance, Wand), Backpacks |
+| Poisoning | 3.5 | Jewelry (Amulet, Ring), Boots, Weapons (Melee, Distance, Wand), Backpacks |
+| Death strike chance | 21 | Weapons (Melee, Distance, Wand) |
+| Earth strike chance | 21 | Weapons (Melee, Distance, Wand) |
+| Energy strike chance | 21 | Weapons (Melee, Distance, Wand) |
+| Fire strike chance | 21 | Weapons (Melee, Distance, Wand) |
+| Holy strike chance | 21 | Weapons (Melee, Distance, Wand) |
+| Ice strike chance | 21 | Weapons (Melee, Distance, Wand) |
+| Maximum health | 240 | Jewelry (Amulet, Ring) |
+| Maximum mana | 240 | Jewelry (Amulet, Ring) |
 
 Wygenerowano z rarityAttributes.lua; nie edytuj wierszy atrybutów ręcznie.

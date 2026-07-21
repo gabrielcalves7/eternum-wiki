@@ -1,4 +1,8 @@
-# Guia de Atributos
+# 📊 Guia de Atributos
+
+{% hint style="info" %}
+Este guia lista os multiplicadores de tier e as rolagens de atributos para itens de equipamento.
+{% endhint %}
 
 ## Multiplicadores de tier
 

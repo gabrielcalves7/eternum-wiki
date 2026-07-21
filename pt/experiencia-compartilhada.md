@@ -1,8 +1,15 @@
-# Sistema de Experiência Compartilhada
+# 🤝 Sistema de Experiência Compartilhada
 
 Prepare-se para melhorar suas aventuras com os membros de sua party (grupo). Com a Experiência Compartilhada habilitada, os pontos de experiência são distribuídos entre todos os membros de sua party, tornando sua jornada ainda mais recompensadora.
 
 ![](../assets/sharedexperience/shared_experience.gif)
+
+{% hint style="info" %}
+**Requisitos Principais para Experiência Compartilhada:**
+- **Membro da Party:** Deve estar em uma party com a EXP Compartilhada habilitada.
+- **Proximidade de Nível:** Os membros da party devem ter pelo menos **2/3 do nível** do jogador de maior nível.
+- **Participação Ativa:** Os jogadores devem se envolver ativamente no combate, causando dano ou curando.
+{% endhint %}
 
 Isso significa que você poderá subir de nível em um ritmo acelerado, forjando personagens mais fortes juntos! Para aproveitar ao máximo a Experiência Compartilhada, há algumas condições a se ter em mente.
 
@@ -16,7 +23,7 @@ Mas não é só isso — a participação ativa no combate é fundamental para c
 
 Abrace o poder da Experiência Compartilhada e embarque em uma jornada épica ao lado dos membros de sua party. Trabalhem juntos, conquistem desafios e vejam seus pontos de experiência dispararem. Suba de nível mais rápido, fortaleça seus laços e aproveite a jogabilidade cooperativa imersiva que espera por você. O mundo é seu para conquistar, então reúna sua party e deixe a aventura compartilhada começar!
 
-## Informações de Bônus
+## 📊 Informações de Bônus
 
 O bônus de experiência depende do número de jogadores e se vocês possuem vocações únicas na party:
 

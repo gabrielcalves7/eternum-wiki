@@ -1,6 +1,6 @@
 # 🎟️ Events and Passes
 
-This guide details the Battlepass and Dynamic Boss systems available in the game.
+This guide details the Battlepass system available in the game.
 
 ## 📜 Battlepass System
 
@@ -22,20 +22,4 @@ As you level up your Battlepass, you unlock rewards. Premium players receive the
 - **Quality of Life & Training:** Exercise Tokens, Dummy Tickets, Stamina Enhancers, and Stamina Recovery items.
 - **Progression Utilities:** Dungeon Scrolls, Daily Passes, Extra Loot items, Identification Orbs, and Purify Scrolls.
 - **Exclusive Gear & Cosmetics:** Outfit Boxes, Adventurer's Tools, Eternum Special Backpacks, and Eternum Boots.
-
----
-
-## 👹 Dynamic Boss System
-
-The Dynamic Boss is the powerful, rare boss you face after completing a daily task. These bosses have dynamic abilities, enhanced stats, and special loot.
-
-### 🏆 Boss Tiers
-
-Bosses can spawn as **Diabolic**, **Insane**, or **Legendary**, with each tier being significantly stronger and offering better loot than the last. They can also use special abilities like summoning minions and casting devastating area-of-effect spells.
-
-### 💰 Boss Loot
-
-{% hint style="warning" %}
-**Highest Damage Dealer Wins:** The primary loot reward goes to the highest damage dealer. When defeated, the boss's loot is placed in a Special Backpack automatically sent to the Thais Depot of the player who dealt the most damage.
-{% endhint %}
 

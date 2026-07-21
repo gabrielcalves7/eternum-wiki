@@ -1,19 +1,19 @@
-# Events and Passes
+# 🎟️ Events and Passes
 
 This guide details the Battlepass and Dynamic Boss systems available in the game.
 
-## 1. Battlepass System
+## 📜 Battlepass System
 
 The Battlepass is a progression system where players complete quests to earn experience and unlock reward tiers. The pass features **25 levels**, each offering a **Free** and **Premium** reward.
 
-### Progression and Quests
+### 🎯 Progression and Quests
 
 Players progress by completing quests divided into three categories:
 - **Daily Quests:** Rerollable, smaller tasks targeting specific monsters (e.g., Rotworms, Cyclops, Demons) or general objectives like gaining a level. 
 - **Weekly Quests:** Larger tasks requiring significant monster kill counts based on species (e.g., Dwarves, Undead) or specific creatures. These provide larger experience rewards.
 - **Special Quests:** Static milestones assigned to all players, such as reaching a specific level or defeating major bosses.
 
-### Rewards Overview
+### 🎁 Rewards Overview
 
 As you level up your Battlepass, you unlock rewards. Premium players receive the Free reward *and* the Premium reward, which is usually larger in quantity or higher in value.
 
@@ -25,15 +25,17 @@ As you level up your Battlepass, you unlock rewards. Premium players receive the
 
 ---
 
-## 2. Dynamic Boss System
+## 👹 Dynamic Boss System
 
 The Dynamic Boss is the powerful, rare boss you face after completing a daily task. These bosses have dynamic abilities, enhanced stats, and special loot.
 
-### Boss Tiers
-Bosses can spawn as Diabolic, Insane, or Legendary, with each tier being significantly stronger and offering better loot than the last. They can also use special abilities like summoning minions and casting devastating area-of-effect spells.
+### 🏆 Boss Tiers
 
-### Boss Loot
-> [!IMPORTANT]  
-> The primary loot reward goes to the **highest damage dealer**.
+Bosses can spawn as **Diabolic**, **Insane**, or **Legendary**, with each tier being significantly stronger and offering better loot than the last. They can also use special abilities like summoning minions and casting devastating area-of-effect spells.
 
-When defeated, the boss's loot is placed in a Special Backpack. This backpack is **automatically sent to the Thais Depot of the player who dealt the most damage**.
+### 💰 Boss Loot
+
+{% hint style="warning" %}
+**Highest Damage Dealer Wins:** The primary loot reward goes to the highest damage dealer. When defeated, the boss's loot is placed in a Special Backpack automatically sent to the Thais Depot of the player who dealt the most damage.
+{% hint style="endhint" %}
+

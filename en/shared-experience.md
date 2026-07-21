@@ -1,8 +1,15 @@
-# Shared Experience System
+# 🤝 Shared Experience System
 
 Get ready to enhance your gaming adventures with your party members. With Shared Experience enabled, experience points are distributed among all members of your party, making your journey even more rewarding.
 
 ![](../assets/sharedexperience/shared_experience.gif)
+
+{% hint style="info" %}
+**Key Shared Experience Requirements:**
+- **Party Membership:** Must be in a party with Shared EXP enabled.
+- **Level Proximity:** Party members must be at least **2/3 of the highest level** player's level.
+- **Active Participation:** Players must actively engage in combat by dealing damage or healing.
+{% hint style="endhint" %}
 
 Means you'll be able to level up at an accelerated rate, forging stronger characters together! To make the most of Shared Experience, there are a few conditions to keep in mind.
 
@@ -16,10 +23,11 @@ But that's not all—active participation in combat is key to reaping the benefi
 
 Embrace the power of Shared Experience and embark on an epic journey alongside your party members. Work together, conquer challenges, and watch as your experience points soar to new heights. Level up faster, strengthen your bonds, and enjoy the immersive cooperative gameplay that awaits you. The world is yours to conquer, so assemble your party and let the shared adventure begin!
 
-## Bonus Information
+## 📊 Bonus Information
 
 The experience bonus depends on the number of players and whether you have unique vocations in the party:
 
 - **2 Players:** 20% extra experience (if both are different vocations), or 15% if they are the same.
 - **3 Players:** 35% extra experience (if all 3 are different vocations), or 20% if any are repeated.
 - **4 or more Players:** 65% extra experience (if all 4 vocations are present), or 35% if any are repeated.
+

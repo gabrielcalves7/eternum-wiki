@@ -21,7 +21,7 @@
   * [🩸 Sacrifice System](en/sacrifice-system.md)
   * [🥋 Sets System](en/sets-system.md)
   * [✨ Custom Spells](en/spells.md)
-* [🇵🇹 Tibia Eternum Wiki - Português](pt/README.md)
+* [🇧🇷 Tibia Eternum Wiki - Português](pt/README.md)
   * [🗺️ Áreas Customizadas](pt/areas-customizadas.md)
   * [⚔️ Atalhos no PvP](pt/atalhos.md)
   * [📜 Tarefas Diárias](pt/tarefas.md)

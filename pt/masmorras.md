@@ -1,15 +1,17 @@
-# Sistema de Masmorras (Dungeons)
+# 🏰 Sistema de Masmorras (Dungeons)
 
 Desafie chefes poderosos e ganhe recompensas exclusivas!
 
-## Como Entrar
+![](../assets/wiki/dungeon.png)
+
+## 🚪 Como Entrar
 
 Acesse a **Interface da Masmorra** clicando no botão no **Menu do Client**.
 
 - **Entradas Diárias:** Você recebe **2 Entradas Gratuitas** a cada server save.
-- **Solo ou em Equipe:** Pode ser feito sozinho ou em uma equipe de até 4 jogadores.
+- **Tamanho da Equipe:** Pode ser feito solo ou em equipe de até 4 jogadores.
 
-## Recompensas
+## 🎁 Recompensas
 
 Masmorras são fonte de:
 - **Crystal Coins** e itens valiosos (loot).

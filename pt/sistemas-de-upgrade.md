@@ -1,39 +1,48 @@
-# Sistemas de Upgrade
+# ⚡ Sistemas de Upgrade
 
 ![Interface de forja](../.gitbook/assets/forge-system.png)
 
-O equipamento evolui de Common até Mythic. Use a interface de upgrade nas bigornas. As bigornas ficam no andar +1 do Casino, acessível pelo teleporte do templo da cidade.
+O equipamento evolui de **Common** até **Mythic**. Use a interface de upgrade nas bigornas localizadas no **andar +1 do Casino**, acessível pelo teleporte do templo da cidade.
 
-## Raridade e tiers
+{% hint style="info" %}
+**Localização das Bigornas:** Faça upgrade nos equipamentos nas bigornas localizadas no andar +1 do Casino através do teleporte do templo da cidade.
+{% endhint %}
 
-![Special Orb para aumentar a raridade](../.gitbook/assets/upgrade-orb.gif)
+## 💎 Raridade & Tiers
 
-* Special Orb aumenta a raridade do item.
+### Orbs de Upgrade
 
-![Cleanse Orb para reduzir a raridade com segurança](../.gitbook/assets/downgrade-orb.gif)
+- ![Special Orb](../.gitbook/assets/upgrade-orb.gif) **Special Orb:** Aumenta a raridade do item.
+- ![Cleanse Orb](../.gitbook/assets/downgrade-orb.gif) **Cleanse Orb:** Reduz a raridade com segurança, permitindo alterar a raridade sem colocar o item em risco.
+- ![Ascension Orb](../.gitbook/assets/ascension-orb.gif) **Ascension Orb:** Aumenta o tier do item em uma bigorna.
 
-* Cleanse Orb reduz a raridade com segurança, sem colocar o item em risco.
+{% hint style="warning" %}
+**Ascensão & Raridade Mythic:** Drops de monstros normalmente chegam ao **Tier 4**. Use **Ascension Orbs** para passar do Tier 4. Alcançar a raridade **Mythic** exige o **Tier 6**.
+{% endhint %}
 
-![Ascension Orb para aumentar o tier](../.gitbook/assets/ascension-orb.gif)
+### Multiplicadores de Tier
 
-* Ascension Orb aumenta o tier em uma bigorna.
-* Drops de monstros normalmente chegam ao Tier 4. Use Ascension para passar do Tier 4; Mythic exige Tier 6.
+| Tier | Multiplicador de Stats |
+| --- | ---: |
+| **Tier 1** | x0.4 |
+| **Tier 2** | x0.5 |
+| **Tier 3** | x0.6 |
+| **Tier 4** | x0.75 |
+| **Tier 5** | x0.9 |
+| **Tier 6** | x1.2 |
 
-| Tier   | Multiplicador |
-| ------ | ------------: |
-| Tier 1 |          x0.4 |
-| Tier 2 |          x0.5 |
-| Tier 3 |          x0.6 |
-| Tier 4 |         x0.75 |
-| Tier 5 |          x0.9 |
-| Tier 6 |          x1.2 |
+## 🔨 Refinamento & Atributos
 
-## Refinamento e atributos
+### Refinamento de Item
+![Refinement Crystal](../.gitbook/assets/refine-orb.gif)
 
-![Refinement Crystal para refinamento de item](../.gitbook/assets/refine-orb.gif)
+O refinamento aumenta o **Attack** e **Defense** brutos do item até **+10**.
 
-Refinement aumenta Attack e Defense brutos até +10. Um sucesso aumenta o nível em 1 e o Item Power em 5; uma falha reduz o nível em 1. A chance começa em 100% de +0 a +1, cai 10% por nível e chega a 10% de +9 a +10.
+- **Sucesso:** Aumenta o Nível do Item em 1 e o Item Power em 5.
+- **Falha:** Reduz o Nível do Item em 1.
+- **Taxa de Sucesso:** Começa em **100%** (de +0 para +1) e cai 10% por nível até chegar a **10%** (de +9 para +10).
 
-![Highroller Orb para sortear atributos](../.gitbook/assets/highroller-orb.gif)
+### Reroll de Atributos
+![Highroller Orb](../.gitbook/assets/highroller-orb.gif)
 
-Highroller Orb pode ser usado em item com raridade maior que 1 e mantém os tipos de atributos enquanto refaz o sorteio de seus valores numéricos.
+O **Highroller Orb** pode ser usado em equipamentos com raridade maior que 1. Ele mantém os tipos de atributos (como Attack e Crit) enquanto refaz o sorteio de seus valores numéricos.

@@ -1,22 +1,25 @@
-# Sistema de Conjuntos (Sets)
+# 🥋 Sistema de Conjuntos (Sets)
 
-O Sistema de Conjuntos (Sets) oferece aos jogadores poderosos bônus de atributos ao equipar múltiplos itens que pertencem ao mesmo conjunto de equipamentos.
+O **Sistema de Conjuntos (Sets)** oferece aos jogadores poderosos bônus de atributos ao equipar múltiplos itens pertencentes ao mesmo conjunto de equipamentos.
 
-## 1. Como os Conjuntos Funcionam
-Itens no jogo podem pertencer a conjuntos específicos (ex: conjunto "Demon"). Quando você equipa várias partes do mesmo conjunto, você desbloqueia bônus especiais.
+## ⚙️ Como os Conjuntos Funcionam
 
-## 2. Bônus de Conjunto
-Os bônus de conjunto baseiam-se na quantidade de peças que você tem equipadas daquele conjunto.
+Itens no jogo podem pertencer a conjuntos específicos (ex: o conjunto **Demon**). Quando você equipa várias partes do mesmo conjunto, você desbloqueia bônus especiais de conjunto.
 
-### Bônus Cumulativos
-Os bônus são **cumulativos**. Por exemplo, se você equipar 3 peças de um conjunto, você receberá os bônus referentes a 2 peças *mais* os bônus de 3 peças combinados.
+## 🎁 Bônus de Conjunto
 
-### Tipos de Bônus
-Os bônus podem incluir várias melhorias de atributos, tais como:
-- Aumento da Vida Máxima e Mana
-- Mais Dano ou Magic Level
-- Aumento na Chance de Acerto Crítico (Critical Hit) ou chances de ataques elementais específicos
-- Imunidades a Condições (ex: imunidade a paralisia)
-- Aumento em habilidades de armas específicas (Sword, Axe, Club, Shielding)
+Os bônus de conjunto são ativados com base no número total de peças que você tem equipadas daquele conjunto.
 
+{% hint style="info" %}
+**Bônus Cumulativos:** Os bônus de conjunto são **cumulativos**. Por exemplo, se você equipar 3 peças de um conjunto, você receberá os bônus referentes a 2 peças *mais* os bônus de 3 peças combinados.
+{% endhint %}
 
+### 🎯 Tipos de Bônus
+
+Equipar peças de conjunto pode conceder uma ampla variedade de melhorias de atributos, incluindo:
+
+- **Vida & Mana:** Aumento da Vida Máxima e Mana
+- **Dano & Magia:** Aumento de Dano ou Magic Level
+- **Crítico & Elemental:** Aumento da Chance de Acerto Crítico ou chances de ataques elementais específicos
+- **Imunidades:** Imunidades a Condições (ex: imunidade a paralisia)
+- **Habilidades de Armas:** Aumento em habilidades de armas específicas (Sword, Axe, Club, Shielding)

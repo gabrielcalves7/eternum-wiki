@@ -21,5 +21,3 @@ Contém joias mágicas aleatórias usadas para aprimoramento e personalização.
 - **Mecânicas:**
   - Você recebe uma mensagem de texto listando exatamente quais joias obteve.
   - A caixa é consumida após o uso.
-
-

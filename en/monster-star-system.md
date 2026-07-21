@@ -1,10 +1,10 @@
-# ☠️ Elite Monster System
+# ⭐ Elite Monster System
 
 The Elite Monster System transforms ordinary monsters into powerful "Elite" variants. These elites feature enhanced stats, unique visual effects, and significantly improved rewards.
 
 {% hint style="info" %}
 The base chance to spawn an Elite monster is directly tied to your **Bestiary stage** for that monster. Higher Bestiary stages unlock higher-tier Elites (Red and Black skulls).
-{% hint style="endhint" %}
+{% endhint %}
 
 ## ⭐️ Star Levels & Visuals
 

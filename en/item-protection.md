@@ -4,7 +4,7 @@ Secure your equipment and prevent losses upon death.
 
 {% hint style="info" %}
 Wearing an **Amulet of Loss (AoL)** or an AoL-enchanted amulet protects you from dropping your backpack and equipment when you die.
-{% hint style="endhint" %}
+{% endhint %}
 
 ## 📿 Amulet of Loss (AoL)
 

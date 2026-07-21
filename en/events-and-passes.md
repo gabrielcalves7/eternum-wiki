@@ -37,5 +37,5 @@ Bosses can spawn as **Diabolic**, **Insane**, or **Legendary**, with each tier b
 
 {% hint style="warning" %}
 **Highest Damage Dealer Wins:** The primary loot reward goes to the highest damage dealer. When defeated, the boss's loot is placed in a Special Backpack automatically sent to the Thais Depot of the player who dealt the most damage.
-{% hint style="endhint" %}
+{% endhint %}
 

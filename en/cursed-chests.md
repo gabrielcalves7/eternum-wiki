@@ -4,7 +4,7 @@ The **Cursed Chests** system is a custom event where special chests spawn random
 
 {% hint style="info" %}
 Cursed Chests spawn around major towns and can be spotted easily by floating text indicating their tier (e.g., *"Legendary Cursed Chest"*).
-{% hint style="endhint" %}
+{% endhint %}
 
 ## 📊 Tiers and Requirements
 
@@ -35,7 +35,7 @@ If players successfully clear all 5 waves, the chest unlocks.
 
 {% hint style="warning" %}
 Once the chest unlocks, players have **60 seconds** to claim their rewards from inside the chest before it vanishes!
-{% hint style="endhint" %}
+{% endhint %}
 
 Those who successfully accomplish the Cursed Chests challenge are granted great rewards, which include powerful equipment and various upgrade orbs used in the Forge system. The quality and rarity of the rewards scale directly with the tier of the chest you defeat.
 

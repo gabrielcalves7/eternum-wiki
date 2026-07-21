@@ -1,4 +1,4 @@
-# ☠️ Sistema de Monstros Elite
+# ⭐ Sistema de Monstros Elite
 
 O Sistema de Monstros Elite transforma monstros comuns em poderosas variantes "Elite". Esses elites apresentam atributos aprimorados, efeitos visuais únicos e recompensas significativamente melhores.
 

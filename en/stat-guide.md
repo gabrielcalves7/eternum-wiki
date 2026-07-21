@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 This guide lists tier multipliers and attribute rolls for equipment items.
-{% hint style="endhint" %}
+{% endhint %}
 
 ## Tier multipliers
 

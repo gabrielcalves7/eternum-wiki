@@ -9,7 +9,7 @@ The Live Cast system allows players to broadcast their gameplay while offering s
 - **Public Cast Bonus:** +10% EXP boost
 - **Delayed Stop Bonus (5 min):** +5% extra EXP boost
 - **Total Max Bonus:** **+15% EXP**
-{% hint style="endhint" %}
+{% endhint %}
 
 ## 🖥️ In-game Menu
 
@@ -25,5 +25,5 @@ Look for the Live Cast icon in your game interface to start broadcasting!
 
 {% hint style="warning" %}
 **Restrictions:** Setting a password makes the broadcast private and **completely disables** both the 10% and 5% bonus modifiers.
-{% hint style="endhint" %}
+{% endhint %}
 

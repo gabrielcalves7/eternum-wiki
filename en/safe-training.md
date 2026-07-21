@@ -4,7 +4,7 @@ This system applies specifically to the Monk Training Area. It is designed to en
 
 {% hint style="info" %}
 Access the Training Zone via the teleport located inside the **Temple** of each city. You need at least **1 minute** of stamina to enter.
-{% hint style="endhint" %}
+{% endhint %}
 
 ## ⚙️ Training Area Mechanics
 
@@ -18,7 +18,7 @@ Access the Training Zone via the teleport located inside the **Temple** of each 
 {% hint style="warning" %}
 **Training Zone Penalties:**
 Inside the training zone, **Skills rise 50% slower** and **Mana Regeneration is reduced by 50%**.
-{% hint style="endhint" %}
+{% endhint %}
 
 ## 🧪 Stamina Items
 

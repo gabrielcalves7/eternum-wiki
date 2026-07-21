@@ -11,7 +11,7 @@ Randomly selects one online player every few hours and awards them **1 Roulette 
 
 {% hint style="info" %}
 Keep your character online to automatically qualify for the periodic server-wide Roulette Giveaway!
-{% hint style="endhint" %}
+{% endhint %}
 
 ## 📦 Random Jewel Box
 
@@ -21,6 +21,3 @@ Contains random magical jewels used for upgrading and customization.
 - **Mechanics:**
   - You receive a text message listing exactly which jewels you obtained.
   - The box is consumed upon use.
-
-
-

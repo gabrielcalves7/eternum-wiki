@@ -9,7 +9,7 @@ Get ready to enhance your gaming adventures with your party members. With Shared
 - **Party Membership:** Must be in a party with Shared EXP enabled.
 - **Level Proximity:** Party members must be at least **2/3 of the highest level** player's level.
 - **Active Participation:** Players must actively engage in combat by dealing damage or healing.
-{% hint style="endhint" %}
+{% endhint %}
 
 Means you'll be able to level up at an accelerated rate, forging stronger characters together! To make the most of Shared Experience, there are a few conditions to keep in mind.
 

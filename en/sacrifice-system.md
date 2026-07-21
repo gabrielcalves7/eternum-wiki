@@ -4,7 +4,7 @@ The Sacrifice System allows players to collaboratively contribute Eternum Coins 
 
 {% hint style="info" %}
 All sacrifices require **Eternum Coins**. The system will intelligently pull coins from both your inventory and your account's Shop Balance.
-{% hint style="endhint" %}
+{% endhint %}
 
 ## 🪙 Currency
 All sacrifices require **Eternum Coins**. The system will intelligently pull coins from both your inventory and your account's Shop Balance.
@@ -24,5 +24,5 @@ The final power of the 1-hour boost is based on the total amount of coins contri
 
 {% hint style="warning" %}
 A successfully activated boost always lasts exactly **1 hour**. You cannot contribute to a pool if its boost is already active.
-{% hint style="endhint" %}
+{% endhint %}
 

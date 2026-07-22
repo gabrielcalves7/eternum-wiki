@@ -15,8 +15,11 @@ for filename in files_to_edit:
     with open(filename, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Replace the 🔥 emoji with a shield badge image for HOT
-    content = content.replace(' 🔥', ' ![HOT](https://img.shields.io/badge/-HOT-red)')
+    # For SUMMARY.md:
+    # Find: [🗺️ Custom Areas](en/custom-areas.md) ![HOT](https://img.shields.io/badge/-HOT-red)
+    # Replace with: [🗺️ Custom Areas [HOT]](en/custom-areas.md)
+    pattern1 = r'\[([^\]]+)\]\(([^)]+)\) !\[HOT\]\(https://img\.shields\.io/badge/-HOT-red\)'
+    content = re.sub(pattern1, r'[\1 [HOT]](\2)', content)
 
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(content)

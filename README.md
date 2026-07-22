@@ -15,9 +15,9 @@ Welcome to the **Tibia Eternum** player wiki! Here you will find comprehensive g
 * ⚡ [**Upgrade Systems**](en/upgrade-systems.md) — Enhance your weapons and equipment.
 * 📊 [**Stat Guide**](en/stat-guide.md) — Understand character attributes and stat allocation.
 * ✨ [**Custom Spells**](en/spells.md) — Learn about unique custom spells available on the server.
-* ⚔️ [**PvP Hotkeys**](en/hotkeys.md) — Essential hotkeys and setups for player vs player combat.
+* ⚔️ [**Eternum Hotkey System**](en/hotkeys.md) — Essential hotkeys and setups for player vs player combat.
 * ⭐ [**Monster Star System**](en/monster-star-system.md) — Fight empowered monsters with increased difficulty and loot.
-* 🩸 [**Sacrifice System**](en/sacrifice-system.md) — Offer items for powerful server-wide and personal bonuses.
+* 🩸 [**Sacrifice System**](en/sacrifice-system.md) — Sacrifice coins for global bonuses.
 * 🥋 [**Sets System**](en/sets-system.md) — Combine armor sets for special set bonuses.
 
 ## ⚙️ Systems & Utility

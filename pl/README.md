@@ -15,9 +15,9 @@ Witaj w wiki graczy **Tibia Eternum**! Znajdziesz tutaj kompleksowe przewodniki 
 * ⚡ [**Systemy Ulepszeń**](systemy-ulepszen.md) — Ulepszaj swoją broń i ekwipunek.
 * 📊 [**Przewodnik po Statystykach**](przewodnik-po-statystykach.md) — Zrozum atrybuty postaci i przydzielanie punktów.
 * ✨ [**Unikalne Czary**](czary.md) — Poznaj unikalne czary dostępne na serwerze.
-* ⚔️ [**Skróty Klawiszowe PvP**](skroty-klawiszowe.md) — Niezbędne skróty klawiszowe i ułożenia do walki gracza z graczem.
+* ⚔️ [**System Skrótów Klawiszowych Eternum**](skroty-klawiszowe.md) — Niezbędne skróty klawiszowe i ułożenia do walki gracza z graczem.
 * ⭐ [**System Gwiazd Potworów**](system-gwiazd-potworow.md) — Walcz ze wzmocnionymi potworami o wyższym poziomie trudności i lepszym łupie.
-* 🩸 [**System Poświęceń**](system-poswiecen.md) — Ofiaruj przedmioty, aby uzyskać potężne bonusy osobiste i serwerowe.
+* 🩸 [**System Poświęceń**](system-poswiecen.md) — Poświęć monety na globalne bonusy.
 * 🥋 [**System Zestawów**](system-zestawow.md) — Łącz zestawy pancerza dla specjalnych bonusów zestawu.
 
 ## ⚙️ Systemy i Narzędzia

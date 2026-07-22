@@ -35,7 +35,7 @@ Możesz organizować swoje łupy, kierując określone kategorie przedmiotów do
 | **Ekwipunek** | Bronie, pancerze, nogawice, hełmy, tarcze, buty, pierścienie, amulety |
 | **Wartościowe przedmioty** | Kamienie szlachetne, perły, rzadkie produkty z potworów |
 | **Mikstury** | Mikstury zdrowia i many, płyny |
-| **Runy** | Magiczne runy i zwoje czarów |
+| **Runy** | Magiczne runy |
 | **Złoto** | Złote, platynowe i kryształowe monety |
 | **Amunicja** | Strzały, bełty, włócznie, gwiazdki do rzucania |
 | **Różne** | Przedmioty z zadań, jedzenie, klucze, narzędzia |

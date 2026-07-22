@@ -1,4 +1,4 @@
-# ⚔️ Skróty Klawiszowe PvP
+# ⚔️ System Skrótów Klawiszowych Eternum
 
 {% hint style="warning" %}
 **Blokada Walki PvP (PvP Combat Lock):** Podczas trwania blokady walki PvP skróty klawiszowe (hotkeye) są całkowicie wyłączone dla leczenia, mikstur, czarów i atakowania. Te czynności należy wykonywać ręcznie.

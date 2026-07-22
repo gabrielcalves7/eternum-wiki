@@ -35,7 +35,7 @@ You can organize your drops by routing specific categories of items into designa
 | **Equipment** | Weapons, armor, legs, helmets, shields, boots, rings, amulets |
 | **Valuables** | Gems, pearls, rare creature products |
 | **Potions** | Health and mana potions, fluids |
-| **Runes** | Magic runes and spell scrolls |
+| **Runes** | Magic runes |
 | **Gold** | Gold, platinum, and crystal coins |
 | **Ammo** | Arrows, bolts, spears, throwing stars |
 | **Miscellaneous** | Quest items, food, keys, tools |

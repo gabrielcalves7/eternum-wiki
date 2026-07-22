@@ -35,7 +35,7 @@ Puedes organizar tus recompensas dirigiendo categorías específicas de objetos 
 | **Equipamiento** | Armas, armaduras, pantalones, cascos, escudos, botas, anillos, amuletos |
 | **Objetos valiosos** | Gemas, perlas, productos raros de criaturas |
 | **Pociones** | Pociones de salud y mana, fluidos |
-| **Runas** | Runas mágicas y pergaminos de hechizos |
+| **Runas** | Runas mágicas |
 | **Oro** | Monedas de oro, platino y cristal |
 | **Munición** | Flechas, virotes, lanzas, estrellas arrojadizas |
 | **Varios** | Objetos de misión, comida, llaves, herramientas |

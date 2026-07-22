@@ -1,4 +1,4 @@
-# ⚔️ Atalhos no PvP
+# ⚔️ Sistema de Atalhos Eternum
 
 {% hint style="warning" %}
 **PvP Combat Lock:** Durante o combat lock de PvP, atalhos ficam totalmente desativados para cura, poções, magias e ataques. Faça essas ações manualmente.

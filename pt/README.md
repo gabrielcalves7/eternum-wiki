@@ -15,9 +15,9 @@ Bem-vindo à wiki de jogadores do **Tibia Eternum**! Encontre aqui os guias comp
 * ⚡ [**Sistemas de Upgrade**](sistemas-de-upgrade.md) — Aprimore suas armas e equipamentos.
 * 📊 [**Guia de Atributos**](guia-de-atributos.md) — Entenda os atributos do personagem e alocação de pontos.
 * ✨ [**Magias Customizadas**](magias.md) — Aprenda sobre as magias exclusivas do servidor.
-* ⚔️ [**Atalhos no PvP**](atalhos.md) — Atalhos essenciais e configurações para combate PvP.
+* ⚔️ [**Sistema de Atalhos Eternum**](atalhos.md) — Atalhos essenciais e configurações para combate PvP.
 * ⭐ [**Sistema de Estrelas de Monstros**](sistema-de-estrelas-de-monstros.md) — Enfrente monstros fortalecidos com maior dificuldade e recompensas.
-* 🩸 [**Sistema de Sacrifício**](sistema-de-sacrificio.md) — Ofereça itens para obter bônus pessoais e no servidor.
+* 🩸 [**Sistema de Sacrifício**](sistema-de-sacrificio.md) — Sacrifique moedas para bônus globais.
 * 🥋 [**Sistema de Conjuntos**](sistema-de-conjuntos.md) — Combine conjuntos de armaduras para bônus especiais.
 
 ## ⚙️ Sistemas & Utilidades

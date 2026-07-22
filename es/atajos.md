@@ -1,4 +1,4 @@
-# ⚔️ Atajos de PvP
+# ⚔️ Sistema de Atajos Eternum
 
 {% hint style="warning" %}
 **Bloqueo de Combate PvP:** Durante el bloqueo de combate PvP, los atajos de teclado (hotkeys) están completamente desactivados para curación, pociones, hechizos y ataques. Debes realizar estas acciones manualmente.

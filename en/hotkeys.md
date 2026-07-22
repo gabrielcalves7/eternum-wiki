@@ -1,4 +1,4 @@
-# ⚔️ PvP Hotkeys
+# ⚔️ Eternum Hotkey System
 
 {% hint style="warning" %}
 **PvP Combat Lock:** During PvP combat lock, hotkeys are completely disabled for healing, potions, spells, and attacking. Perform those actions manually.

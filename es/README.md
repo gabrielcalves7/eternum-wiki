@@ -15,9 +15,9 @@
 * ⚡ [**Sistemas de Mejora**](sistemas-de-mejora.md) — Mejora tus armas y equipamiento.
 * 📊 [**Guía de Atributos**](guia-de-atributos.md) — Entiende los atributos del personaje y la asignación de puntos.
 * ✨ [**Hechizos Personalizados**](hechizos.md) — Conoce los hechizos personalizados únicos disponibles en el servidor.
-* ⚔️ [**Atajos de PvP**](atajos.md) — Atajos esenciales y configuraciones para combate jugador contra jugador.
+* ⚔️ [**Sistema de Atajos Eternum**](atajos.md) — Atajos esenciales y configuraciones para combate jugador contra jugador.
 * ⭐ [**Sistema de Estrellas de Monstruos**](sistema-de-estrellas-de-monstruos.md) — Enfréntate a monstruos potenciados con mayor dificultad y recompensas.
-* 🩸 [**Sistema de Sacrificio**](sistema-de-sacrificio.md) — Ofrece objetos para obtener potentes bonificaciones personales y para todo el servidor.
+* 🩸 [**Sistema de Sacrificio**](sistema-de-sacrificio.md) — Sacrifica monedas para obtener bonificaciones globales.
 * 🥋 [**Sistema de Conjuntos**](sistema-de-conjuntos.md) — Combina conjuntos de armaduras para obtener bonificaciones especiales de conjunto.
 
 ## ⚙️ Sistemas y Utilidades

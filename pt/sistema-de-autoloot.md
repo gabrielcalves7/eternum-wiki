@@ -35,7 +35,7 @@ Você pode organizar seus saques direcionando categorias específicas de itens p
 | **Equipamentos** | Armas, armaduras, calças, capacetes, escudos, botas, anéis, amuletos |
 | **Valiosos** | Gemas, pérolas, produtos raros de criaturas |
 | **Poções** | Poções de vida e mana, fluidos |
-| **Runas** | Runas mágicas e pergaminhos de magia |
+| **Runas** | Runas mágicas |
 | **Ouro** | Moedas de ouro, platina e cristal |
 | **Munição** | Flechas, bolts, lanças, estrelas de arremesso |
 | **Diversos** | Itens de quest, comida, chaves, ferramentas |

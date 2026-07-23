@@ -21,6 +21,7 @@
   * [🩸 Sacrifice System](en/sacrifice-system.md)
   * [🥋 Sets System](en/sets-system.md) ![HOT](https://img.shields.io/badge/-HOT-red)
   * [✨ Custom Spells](en/spells.md) ![HOT](https://img.shields.io/badge/-HOT-red)
+  * [🛡️ Quests & Rewards](en/quests.md)
 * [🇧🇷 Tibia Eternum Wiki - Português](pt/README.md)
   * [🗺️ Áreas Customizadas](pt/areas-customizadas.md) ![HOT](https://img.shields.io/badge/-HOT-red)
   * [⚔️ Sistema de Atalhos Eternum](pt/atalhos.md)

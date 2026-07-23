@@ -39,3 +39,4 @@ Once the chest unlocks, players have **60 seconds** to claim their rewards from 
 
 Those who successfully accomplish the Cursed Chests challenge are granted great rewards, which include powerful equipment and various upgrade orbs used in the Forge system. The quality and rarity of the rewards scale directly with the tier of the chest you defeat.
 
+Additionally, **Access Scrolls** required to unlock Rashid and the Djinn factions can be obtained from Cursed Chests (as well as through the in-game store).

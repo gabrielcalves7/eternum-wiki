@@ -20,3 +20,12 @@ These bosses have dynamic abilities, enhanced stats, and special loot.
 ### 🏆 Boss Tiers
 
 Bosses can spawn as **Diabolic**, **Insane**, or **Legendary**, with each tier being significantly stronger and offering better loot than the last. They can also use special abilities like summoning minions and casting devastating area-of-effect spells.
+
+---
+
+## 🏛️ Ancestral Tasks
+
+Ancestral Tasks provide additional challenges. 
+
+- **Cooldown:** Cancelling or completing an Ancestral Task applies a **four-hour delay** before the same task can be started again.
+- **Management:** To manage your tasks, speak with the **Task Manager** NPC, who can be found in every city.

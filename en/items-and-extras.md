@@ -21,3 +21,14 @@ Contains random magical jewels used for upgrading and customization.
 - **Mechanics:**
   - You receive a text message listing exactly which jewels you obtained.
   - The box is consumed upon use.
+
+## 🤝 Trading & Factions
+
+### Murad Trading Requirements
+Trading with **Murad** requires players to have access to **Rashid** and at least one **Djinn faction**.
+
+### Djinn Faction Exclusivity
+Each character may ally with only **one faction**: either the **Blue Djinns** or the **Green Djinns**. It is not possible to unlock both on the same character.
+
+### Access Scrolls
+The scrolls required to unlock Rashid and the Djinn factions can be obtained from **Cursed Chests** or through the **in-game store**.

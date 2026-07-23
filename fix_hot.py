@@ -1,4 +1,3 @@
-import re
 import os
 
 files_to_edit = [
@@ -15,11 +14,8 @@ for filename in files_to_edit:
     with open(filename, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # For SUMMARY.md:
-    # Find: [🗺️ Custom Areas](en/custom-areas.md) ![HOT](https://img.shields.io/badge/-HOT-red)
-    # Replace with: [🗺️ Custom Areas [HOT]](en/custom-areas.md)
-    pattern1 = r'\[([^\]]+)\]\(([^)]+)\) !\[HOT\]\(https://img\.shields\.io/badge/-HOT-red\)'
-    content = re.sub(pattern1, r'[\1 [HOT]](\2)', content)
+    # Replace ' [HOT]' with ' 🔥 HOT'
+    content = content.replace(' [HOT]', ' 🔥 HOT')
 
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(content)

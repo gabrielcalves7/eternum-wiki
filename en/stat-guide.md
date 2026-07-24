@@ -17,6 +17,10 @@ This guide lists tier multipliers and attribute rolls for equipment items.
 
 ## Attribute rolls
 
+{% hint style="info" %}
+The base maximum values shown below apply to items with **300 power**.
+{% endhint %}
+
 | Attribute | Base maximum | Eligible categories |
 | --- | ---: | --- |
 | Death damage | 4 | Jewelry (Amulet, Ring), Boots, Quivers, Weapons (Melee, Distance, Wand), Shields, Backpacks |
@@ -66,5 +70,3 @@ This guide lists tier multipliers and attribute rolls for equipment items.
 | Ice strike chance | 21 | Weapons (Melee, Distance, Wand) |
 | Maximum health | 240 | Jewelry (Amulet, Ring) |
 | Maximum mana | 240 | Jewelry (Amulet, Ring) |
-
-Generated from rarityAttributes.lua; do not edit attribute rows manually.

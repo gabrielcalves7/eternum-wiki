@@ -6,6 +6,7 @@
   * [📜 Daily Tasks](en/tasks.md)
   * [📊 Stat Guide](en/stat-guide.md)
   * [⚡ Upgrade Systems](en/upgrade-systems.md) ![HOT](https://img.shields.io/badge/-HOT-red)
+  * [💎 Jewel (Forge) System](en/jewel-system.md) ![HOT](https://img.shields.io/badge/-HOT-red)
   * [👥 Shared Experience](en/shared-experience.md)
   * [🛡️ Safe Training](en/safe-training.md) ![HOT](https://img.shields.io/badge/-HOT-red)
   * [📺 Live Cast](en/live-cast.md)

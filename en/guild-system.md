@@ -66,8 +66,6 @@ Up to level 50 each bracket adds **+2%** (**+1%** for Elite Monster Chance). Aft
 - The price depends on **your guild level and your member count**: a bigger, higher guild pays more for the same block.
 - **Every purchase of that buff that day costs ×1.5 more than the last.** The counter resets at **6:00 server time**.
 
-**The formula** — `block = base cost × members × (1 + guild level / 20) / 4`, then multiplied by `1.5` for each block of that buff already bought today.
-
 ### Cost **per member**: first 15-minute block / first full hour
 
 A full hour is four blocks, and the escalation applies inside it, so an hour costs **8.125×** a single block rather than four times it. Multiply these by your member count.

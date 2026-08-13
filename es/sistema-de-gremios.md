@@ -66,8 +66,6 @@ Hasta el nivel 50 cada tramo suma **+2%** (**+1%** para Probabilidad de Monstruo
 - El precio depende del **nivel del gremio y del número de miembros**: un gremio más grande y más alto paga más por el mismo bloque.
 - **Cada compra de esa bonificación en el día cuesta ×1.5 la anterior.** El contador se reinicia a las **6:00 hora del servidor**.
 
-**La fórmula** — `bloque = coste base × miembros × (1 + nivel de gremio / 20) / 4`, multiplicado por `1.5` por cada bloque de esa bonificación ya comprado hoy.
-
 ### Coste **por miembro**: primer bloque de 15 min / primera hora completa
 
 Una hora son cuatro bloques, y el aumento ya se aplica dentro de ella, así que la hora cuesta **8.125×** un bloque, no cuatro veces. Multiplica por tu número de miembros.

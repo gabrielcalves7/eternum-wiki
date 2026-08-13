@@ -66,8 +66,6 @@ Do poziomu 50 każdy przedział dodaje **+2%** (**+1%** dla szansy na potwora El
 - Cena zależy od **poziomu gildii i liczby członków**: większa i wyżej rozwinięta gildia płaci za ten sam blok więcej.
 - **Każdy kolejny zakup tego wzmocnienia w danym dniu kosztuje ×1.5 więcej.** Licznik zeruje się o **6:00 czasu serwera**.
 
-**Wzór** — `blok = koszt bazowy × liczba członków × (1 + poziom gildii / 20) / 4`, pomnożone przez `1.5` za każdy blok tego wzmocnienia kupiony już dzisiaj.
-
 ### Koszt **na członka**: pierwszy blok 15 min / pierwsza pełna godzina
 
 Godzina to cztery bloki, a podwyżka działa już w jej trakcie, więc godzina kosztuje **8.125×** jeden blok, a nie cztery razy tyle. Pomnóż przez liczbę członków.

@@ -13,6 +13,10 @@ The two-step split is because the figures come from running the server's real
 GuildSystem.CONFIG and its cost formulas, which live in another repository
 (TVP-Ravenor-Server, data/lib/custom/guild_system.lua). Only the prose in the
 LANGUAGES table below is written by hand.
+
+Deliberately absent: the cost formula itself. The tables give a player every
+figure they need without spelling out the maths for other servers to copy, so do
+not add it back.
 """
 import pathlib, sys
 
@@ -98,9 +102,6 @@ LANGUAGES = {
         f'The price depends on **your guild level and your member count**: a bigger, higher guild pays more for the same block.',
         f'**Every purchase of that buff that day costs ×{STEP} more than the last.** The counter resets at **{RESET}:00 server time**.',
     ],
-    price_formula_h='The formula',
-    price_formula=(f'`block = base cost × members × (1 + guild level / 20) / 4`, then multiplied by '
-                   f'`{STEP}` for each block of that buff already bought today.'),
     t_perm=f'Cost **per member**: first {BLOCK}-minute block / first full hour',
     perm_note=(f'A full hour is four blocks, and the escalation applies inside it, so an hour costs '
                f'**8.125×** a single block rather than four times it. Multiply these by your member count.'),
@@ -156,9 +157,6 @@ LANGUAGES = {
         'O preço depende do **nível da guilda e da quantidade de membros**: uma guilda maior e mais alta paga mais pelo mesmo bloco.',
         f'**Cada compra daquele bônus no dia custa ×{STEP} a anterior.** O contador zera às **{RESET}:00 do horário do servidor**.',
     ],
-    price_formula_h='A fórmula',
-    price_formula=(f'`bloco = custo base × membros × (1 + nível da guilda / 20) / 4`, multiplicado por '
-                   f'`{STEP}` para cada bloco daquele bônus já comprado no dia.'),
     t_perm=f'Custo **por membro**: primeiro bloco de {BLOCK} min / primeira hora cheia',
     perm_note=('Uma hora são quatro blocos, e o aumento já vale dentro dela, então a hora custa '
                '**8.125×** um bloco, e não quatro vezes. Multiplique pelo número de membros.'),
@@ -214,9 +212,6 @@ LANGUAGES = {
         'El precio depende del **nivel del gremio y del número de miembros**: un gremio más grande y más alto paga más por el mismo bloque.',
         f'**Cada compra de esa bonificación en el día cuesta ×{STEP} la anterior.** El contador se reinicia a las **{RESET}:00 hora del servidor**.',
     ],
-    price_formula_h='La fórmula',
-    price_formula=(f'`bloque = coste base × miembros × (1 + nivel de gremio / 20) / 4`, multiplicado por '
-                   f'`{STEP}` por cada bloque de esa bonificación ya comprado hoy.'),
     t_perm=f'Coste **por miembro**: primer bloque de {BLOCK} min / primera hora completa',
     perm_note=('Una hora son cuatro bloques, y el aumento ya se aplica dentro de ella, así que la hora cuesta '
                '**8.125×** un bloque, no cuatro veces. Multiplica por tu número de miembros.'),
@@ -272,9 +267,6 @@ LANGUAGES = {
         'Cena zależy od **poziomu gildii i liczby członków**: większa i wyżej rozwinięta gildia płaci za ten sam blok więcej.',
         f'**Każdy kolejny zakup tego wzmocnienia w danym dniu kosztuje ×{STEP} więcej.** Licznik zeruje się o **{RESET}:00 czasu serwera**.',
     ],
-    price_formula_h='Wzór',
-    price_formula=(f'`blok = koszt bazowy × liczba członków × (1 + poziom gildii / 20) / 4`, pomnożone przez '
-                   f'`{STEP}` za każdy blok tego wzmocnienia kupiony już dzisiaj.'),
     t_perm=f'Koszt **na członka**: pierwszy blok {BLOCK} min / pierwsza pełna godzina',
     perm_note=('Godzina to cztery bloki, a podwyżka działa już w jej trakcie, więc godzina kosztuje '
                '**8.125×** jeden blok, a nie cztery razy tyle. Pomnóż przez liczbę członków.'),
@@ -332,8 +324,6 @@ def page(t):
     for line in t['price_intro']:
         w(f'- {line}')
     w('')
-    w(f'**{t["price_formula_h"]}** — {t["price_formula"]}\n')
-
     w(f'### {t["t_perm"]}\n')
     w(t['perm_note'] + '\n')
     price_levels = [5, 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100]
@@ -386,6 +376,10 @@ for lang, t in LANGUAGES.items():
     path = WIKI / t['file']
     path.write_text(page(t))
     print('wrote', path)
+
+    # Rerunning this must not add the entry a second time.
+    if t['summary'].strip() in [x.strip() for x in summary.splitlines()]:
+        continue
 
     anchor = t['summary_after']
     assert anchor.strip() in [x.strip() for x in summary.splitlines()], f'anchor not found: {anchor}'

@@ -66,8 +66,6 @@ Até o nível 50 cada faixa soma **+2%** (**+1%** para Chance de Monstro Elite).
 - O preço depende do **nível da guilda e da quantidade de membros**: uma guilda maior e mais alta paga mais pelo mesmo bloco.
 - **Cada compra daquele bônus no dia custa ×1.5 a anterior.** O contador zera às **6:00 do horário do servidor**.
 
-**A fórmula** — `bloco = custo base × membros × (1 + nível da guilda / 20) / 4`, multiplicado por `1.5` para cada bloco daquele bônus já comprado no dia.
-
 ### Custo **por membro**: primeiro bloco de 15 min / primeira hora cheia
 
 Uma hora são quatro blocos, e o aumento já vale dentro dela, então a hora custa **8.125×** um bloco, e não quatro vezes. Multiplique pelo número de membros.

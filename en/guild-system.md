@@ -1,6 +1,6 @@
 # 🏛️ Guild System
 
-Guilds level up on gold. Members donate into a shared **treasury**, and the leadership spends it on guild levels — which grant member slots — and on five guild-wide **buffs** that apply to every member online while they run.
+Guilds level up on gold. Members donate into a shared **treasury**, and the leadership spends it on guild levels, on **member slots**, and on five guild-wide **buffs** that apply to every member online while they run.
 
 {% hint style="info" %}
 Founding a guild costs no gold, but your character must be at least **level 50**. You can create one straight from the Guild window in the client.
@@ -13,13 +13,31 @@ Founding a guild costs no gold, but your character must be at least **level 50**
 - Every donation is recorded per character, so the guild can see who has funded it.
 - **Donations are never refunded.** Gold that goes into the treasury stays there.
 
-## 📈 Guild Levels and Member Slots
+## 📈 Guild Levels
 
-A guild runs from level 1 to **level 100**. Levels are counted in brackets of ten, and each bracket grants **5 more member slots** and one more step of every unlocked buff.
+A guild runs from level 1 to **level 100**. Levels are counted in brackets of ten, and each bracket adds one more step to every unlocked buff and raises the ceiling on how many member slots the guild may buy.
 
 | Guild level | 1 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Member slots | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 |
+| Slot ceiling | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 |
+
+## 👥 Member Slots
+
+A guild founds with **5 members** and buys every further slot from the treasury. Guild level does not hand them out; it only sets the ceiling, so a guild needs both the level and the gold. Each slot costs more than the last, and the price never resets.
+
+| Slot | Costs | Total spent on slots | Needs guild level |
+|---|---|---|---|
+| **6** | 50,000 | 50,000 | 10 |
+| **10** | 73,205 | 305,255 | 10 |
+| **15** | 117,897 | 796,869 | 20 |
+| **20** | 189,874 | 1,588,619 | 30 |
+| **25** | 305,795 | 2,863,742 | 40 |
+| **30** | 492,486 | 4,917,342 | 50 |
+| **35** | 793,154 | 8,224,687 | 60 |
+| **40** | 1,277,383 | 13,551,202 | 70 |
+| **45** | 2,057,238 | 22,129,609 | 80 |
+| **50** | 3,313,203 | 35,945,220 | 90 |
+| **55** | 5,335,947 | 58,195,402 | 100 |
 
 ## ✨ The Five Buffs
 

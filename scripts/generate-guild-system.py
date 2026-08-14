@@ -23,12 +23,14 @@ import pathlib, sys
 TSV = pathlib.Path(sys.argv[1])
 WIKI = pathlib.Path(sys.argv[2])
 
-meta, buffs, levels = {}, [], {}
+meta, buffs, levels, slots = {}, [], {}, []
 for line in TSV.read_text().splitlines():
     f = line.split('\t')
     if f[0] == 'buff':
         buffs.append({'key': f[1], 'label': f[2], 'unlock': int(f[3]),
                       'cap': float(f[4]), 'max': float(f[5]), 'base': int(f[6])})
+    elif f[0] == 'slot':
+        slots.append({'n': int(f[1]), 'cost': int(f[2]), 'cum': int(f[3]), 'level': int(f[4])})
     elif f[0] == 'level':
         L = int(f[1])
         n = len(buffs)
@@ -46,6 +48,7 @@ BLOCK = int(meta['blockMinutes'])
 MAXMIN = int(meta['maxMinutes'])
 STEP = float(meta['priceStep'])
 MINDON = int(meta['minDonation'])
+BASESLOTS = int(meta['baseSlots'])
 RESET = int(meta['resetHour'])
 BLOCKS_PER_DAY_CAP = MAXMIN // BLOCK
 
@@ -67,8 +70,8 @@ LANGUAGES = {
     summary='  * [🏛️ Guild System](en/guild-system.md)',
     title='🏛️ Guild System',
     intro=('Guilds level up on gold. Members donate into a shared **treasury**, and the leadership '
-           'spends it on guild levels — which grant member slots — and on five guild-wide **buffs** '
-           'that apply to every member online while they run.'),
+           'spends it on guild levels, on **member slots**, and on five guild-wide **buffs** that '
+           'apply to every member online while they run.'),
     hint_founding=(f'Founding a guild costs no gold, but your character must be at least '
                    f'**level {50}**. You can create one straight from the Guild window in the client.'),
     h_treasury='💰 The Treasury',
@@ -78,10 +81,17 @@ LANGUAGES = {
         'Every donation is recorded per character, so the guild can see who has funded it.',
         '**Donations are never refunded.** Gold that goes into the treasury stays there.',
     ],
-    h_levels='📈 Guild Levels and Member Slots',
+    h_levels='📈 Guild Levels',
     levels=(f'A guild runs from level 1 to **level {MAXLVL}**. Levels are counted in brackets of ten, '
-            f'and each bracket grants **5 more member slots** and one more step of every unlocked buff.'),
-    t_level='Guild level', t_slots='Member slots',
+            f'and each bracket adds one more step to every unlocked buff and raises the ceiling on '
+            f'how many member slots the guild may buy.'),
+    t_level='Guild level', t_slots='Slot ceiling',
+    h_slots='👥 Member Slots',
+    slots_intro=(f'A guild founds with **{BASESLOTS} members** and buys every further slot from the '
+                 f'treasury. Guild level does not hand them out; it only sets the ceiling, so a guild '
+                 f'needs both the level and the gold. Each slot costs more than the last, and the '
+                 f'price never resets.'),
+    t_slotn='Slot', t_slotcost='Costs', t_slottotal='Total spent on slots', t_slotlevel='Needs guild level',
     h_buffs='✨ The Five Buffs',
     buffs_intro=('Each buff is unlocked by a guild level and then grows with it. A buff always runs at '
                  'the **full bonus your guild level supports** — gold buys uptime, not strength.'),
@@ -122,8 +132,8 @@ LANGUAGES = {
     summary='  * [🏛️ Sistema de Guildas](pt/sistema-de-guildas.md)',
     title='🏛️ Sistema de Guildas',
     intro=('Guildas sobem de nível com ouro. Os membros doam para um **tesouro** compartilhado, e a '
-           'liderança o gasta em níveis de guilda — que concedem vagas de membro — e em cinco **bônus** '
-           'de guilda que valem para todos os membros online enquanto estiverem ativos.'),
+           'liderança o gasta em níveis de guilda, em **vagas de membro** e em cinco **bônus** de '
+           'guilda que valem para todos os membros online enquanto estiverem ativos.'),
     hint_founding=('Fundar uma guilda não custa ouro, mas seu personagem precisa ter no mínimo '
                    '**nível 50**. Você pode criá-la direto pela janela de Guilda no cliente.'),
     h_treasury='💰 O Tesouro',
@@ -133,10 +143,16 @@ LANGUAGES = {
         'Cada doação é registrada por personagem, então a guilda vê quem a financiou.',
         '**Doações nunca são devolvidas.** Ouro que entra no tesouro fica lá.',
     ],
-    h_levels='📈 Níveis de Guilda e Vagas de Membro',
+    h_levels='📈 Níveis de Guilda',
     levels=(f'Uma guilda vai do nível 1 ao **nível {MAXLVL}**. Os níveis são contados em faixas de dez, '
-            f'e cada faixa concede **mais 5 vagas de membro** e mais um degrau de cada bônus já desbloqueado.'),
-    t_level='Nível da guilda', t_slots='Vagas de membro',
+            f'e cada faixa adiciona mais um degrau a cada bônus desbloqueado e eleva o teto de quantas '
+            f'vagas de membro a guilda pode comprar.'),
+    t_level='Nível da guilda', t_slots='Teto de vagas',
+    h_slots='👥 Vagas de Membro',
+    slots_intro=(f'Uma guilda é fundada com **{BASESLOTS} membros** e compra cada vaga adicional do '
+                 f'tesouro. O nível da guilda não dá vagas; ele apenas define o teto, então é preciso '
+                 f'ter o nível e o ouro. Cada vaga custa mais que a anterior, e o preço nunca zera.'),
+    t_slotn='Vaga', t_slotcost='Custa', t_slottotal='Total gasto em vagas', t_slotlevel='Exige nível de guilda',
     h_buffs='✨ Os Cinco Bônus',
     buffs_intro=('Cada bônus é desbloqueado por um nível de guilda e cresce junto com ele. Um bônus sempre '
                  'roda no **valor máximo que o nível da sua guilda permite** — o ouro compra tempo, não força.'),
@@ -177,8 +193,8 @@ LANGUAGES = {
     summary='  * [🏛️ Sistema de Gremios](es/sistema-de-gremios.md)',
     title='🏛️ Sistema de Gremios',
     intro=('Los gremios suben de nivel con oro. Los miembros donan a un **tesoro** común, y el liderazgo '
-           'lo gasta en niveles de gremio — que otorgan plazas de miembro — y en cinco **bonificaciones** '
-           'de gremio que se aplican a todos los miembros conectados mientras estén activas.'),
+           'lo gasta en niveles de gremio, en **plazas de miembro** y en cinco **bonificaciones** de '
+           'gremio que se aplican a todos los miembros conectados mientras estén activas.'),
     hint_founding=('Fundar un gremio no cuesta oro, pero tu personaje debe ser al menos de '
                    '**nivel 50**. Puedes crearlo directamente desde la ventana de Gremio en el cliente.'),
     h_treasury='💰 El Tesoro',
@@ -188,10 +204,16 @@ LANGUAGES = {
         'Cada donación se registra por personaje, así el gremio ve quién lo ha financiado.',
         '**Las donaciones no se devuelven nunca.** El oro que entra al tesoro se queda allí.',
     ],
-    h_levels='📈 Niveles de Gremio y Plazas de Miembro',
+    h_levels='📈 Niveles de Gremio',
     levels=(f'Un gremio va del nivel 1 al **nivel {MAXLVL}**. Los niveles se cuentan en tramos de diez, '
-            f'y cada tramo otorga **5 plazas más** y un escalón más de cada bonificación desbloqueada.'),
-    t_level='Nivel de gremio', t_slots='Plazas de miembro',
+            f'y cada tramo añade un escalón más a cada bonificación desbloqueada y sube el techo de '
+            f'cuántas plazas de miembro puede comprar el gremio.'),
+    t_level='Nivel de gremio', t_slots='Techo de plazas',
+    h_slots='👥 Plazas de Miembro',
+    slots_intro=(f'Un gremio se funda con **{BASESLOTS} miembros** y compra cada plaza adicional del '
+                 f'tesoro. El nivel de gremio no las regala; solo fija el techo, así que hacen falta '
+                 f'el nivel y el oro. Cada plaza cuesta más que la anterior, y el precio nunca se reinicia.'),
+    t_slotn='Plaza', t_slotcost='Cuesta', t_slottotal='Total gastado en plazas', t_slotlevel='Exige nivel de gremio',
     h_buffs='✨ Las Cinco Bonificaciones',
     buffs_intro=('Cada bonificación se desbloquea con un nivel de gremio y crece con él. Una bonificación '
                  'siempre corre al **máximo que permite tu nivel de gremio** — el oro compra tiempo, no potencia.'),
@@ -232,7 +254,7 @@ LANGUAGES = {
     summary='  * [🏛️ System Gildii](pl/system-gildii.md)',
     title='🏛️ System Gildii',
     intro=('Gildie zdobywają poziomy za złoto. Członkowie wpłacają do wspólnego **skarbca**, a przywództwo '
-           'wydaje je na poziomy gildii — dające miejsca dla członków — oraz na pięć **wzmocnień**, '
+           'wydaje je na poziomy gildii, na **miejsca dla członków** oraz na pięć **wzmocnień**, '
            'które działają na wszystkich członków online, dopóki są aktywne.'),
     hint_founding=('Założenie gildii nie kosztuje złota, ale twoja postać musi mieć co najmniej '
                    '**poziom 50**. Możesz ją utworzyć bezpośrednio w oknie Gildii w kliencie.'),
@@ -243,10 +265,16 @@ LANGUAGES = {
         'Każda wpłata jest zapisywana przy postaci, więc gildia widzi, kto ją finansuje.',
         '**Wpłaty nigdy nie są zwracane.** Złoto, które trafi do skarbca, zostaje w nim.',
     ],
-    h_levels='📈 Poziomy Gildii i Miejsca dla Członków',
+    h_levels='📈 Poziomy Gildii',
     levels=(f'Gildia rozwija się od poziomu 1 do **poziomu {MAXLVL}**. Poziomy liczone są w przedziałach po dziesięć, '
-            f'a każdy przedział daje **5 dodatkowych miejsc** i jeden stopień każdego odblokowanego wzmocnienia.'),
-    t_level='Poziom gildii', t_slots='Miejsca dla członków',
+            f'a każdy przedział dodaje kolejny stopień do każdego odblokowanego wzmocnienia i podnosi '
+            f'limit miejsc dla członków, które gildia może kupić.'),
+    t_level='Poziom gildii', t_slots='Limit miejsc',
+    h_slots='👥 Miejsca dla Członków',
+    slots_intro=(f'Gildia powstaje z **{BASESLOTS} miejscami** i każde kolejne kupuje ze skarbca. Poziom '
+                 f'gildii ich nie przyznaje — wyznacza tylko limit, więc potrzebne są i poziom, i złoto. '
+                 f'Każde miejsce kosztuje więcej niż poprzednie, a cena nigdy się nie zeruje.'),
+    t_slotn='Miejsce', t_slotcost='Koszt', t_slottotal='Łącznie na miejsca', t_slotlevel='Wymaga poziomu gildii',
     h_buffs='✨ Pięć Wzmocnień',
     buffs_intro=('Każde wzmocnienie odblokowuje się na danym poziomie gildii i rośnie razem z nim. Wzmocnienie '
                  'zawsze działa na **maksimum, na które pozwala poziom gildii** — złoto kupuje czas, nie moc.'),
@@ -302,6 +330,15 @@ def page(t):
     w(f'| {t["t_level"]} | ' + ' | '.join(str(x) for x in slot_levels) + ' |')
     w('|---' * (len(slot_levels) + 1) + '|')
     w(f'| {t["t_slots"]} | ' + ' | '.join(str(levels[x]['slots']) for x in slot_levels) + ' |\n')
+
+    w(f'## {t["h_slots"]}\n')
+    w(t['slots_intro'] + '\n')
+    w(f'| {t["t_slotn"]} | {t["t_slotcost"]} | {t["t_slottotal"]} | {t["t_slotlevel"]} |')
+    w('|---|---|---|---|')
+    for row in slots:
+        if row['n'] in (6, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55):
+            w(f'| **{row["n"]}** | {n(row["cost"])} | {n(row["cum"] + row["cost"])} | {row["level"]} |')
+    w('')
 
     w(f'## {t["h_buffs"]}\n')
     w(t['buffs_intro'] + '\n')

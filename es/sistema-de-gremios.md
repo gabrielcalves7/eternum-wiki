@@ -1,6 +1,6 @@
 # 🏛️ Sistema de Gremios
 
-Los gremios suben de nivel con oro. Los miembros donan a un **tesoro** común, y el liderazgo lo gasta en niveles de gremio — que otorgan plazas de miembro — y en cinco **bonificaciones** de gremio que se aplican a todos los miembros conectados mientras estén activas.
+Los gremios suben de nivel con oro. Los miembros donan a un **tesoro** común, y el liderazgo lo gasta en niveles de gremio, en **plazas de miembro** y en cinco **bonificaciones** de gremio que se aplican a todos los miembros conectados mientras estén activas.
 
 {% hint style="info" %}
 Fundar un gremio no cuesta oro, pero tu personaje debe ser al menos de **nivel 50**. Puedes crearlo directamente desde la ventana de Gremio en el cliente.
@@ -13,13 +13,31 @@ Fundar un gremio no cuesta oro, pero tu personaje debe ser al menos de **nivel 5
 - Cada donación se registra por personaje, así el gremio ve quién lo ha financiado.
 - **Las donaciones no se devuelven nunca.** El oro que entra al tesoro se queda allí.
 
-## 📈 Niveles de Gremio y Plazas de Miembro
+## 📈 Niveles de Gremio
 
-Un gremio va del nivel 1 al **nivel 100**. Los niveles se cuentan en tramos de diez, y cada tramo otorga **5 plazas más** y un escalón más de cada bonificación desbloqueada.
+Un gremio va del nivel 1 al **nivel 100**. Los niveles se cuentan en tramos de diez, y cada tramo añade un escalón más a cada bonificación desbloqueada y sube el techo de cuántas plazas de miembro puede comprar el gremio.
 
 | Nivel de gremio | 1 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Plazas de miembro | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 |
+| Techo de plazas | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 |
+
+## 👥 Plazas de Miembro
+
+Un gremio se funda con **5 miembros** y compra cada plaza adicional del tesoro. El nivel de gremio no las regala; solo fija el techo, así que hacen falta el nivel y el oro. Cada plaza cuesta más que la anterior, y el precio nunca se reinicia.
+
+| Plaza | Cuesta | Total gastado en plazas | Exige nivel de gremio |
+|---|---|---|---|
+| **6** | 50,000 | 50,000 | 10 |
+| **10** | 73,205 | 305,255 | 10 |
+| **15** | 117,897 | 796,869 | 20 |
+| **20** | 189,874 | 1,588,619 | 30 |
+| **25** | 305,795 | 2,863,742 | 40 |
+| **30** | 492,486 | 4,917,342 | 50 |
+| **35** | 793,154 | 8,224,687 | 60 |
+| **40** | 1,277,383 | 13,551,202 | 70 |
+| **45** | 2,057,238 | 22,129,609 | 80 |
+| **50** | 3,313,203 | 35,945,220 | 90 |
+| **55** | 5,335,947 | 58,195,402 | 100 |
 
 ## ✨ Las Cinco Bonificaciones
 

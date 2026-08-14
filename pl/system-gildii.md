@@ -1,6 +1,6 @@
 # 🏛️ System Gildii
 
-Gildie zdobywają poziomy za złoto. Członkowie wpłacają do wspólnego **skarbca**, a przywództwo wydaje je na poziomy gildii — dające miejsca dla członków — oraz na pięć **wzmocnień**, które działają na wszystkich członków online, dopóki są aktywne.
+Gildie zdobywają poziomy za złoto. Członkowie wpłacają do wspólnego **skarbca**, a przywództwo wydaje je na poziomy gildii, na **miejsca dla członków** oraz na pięć **wzmocnień**, które działają na wszystkich członków online, dopóki są aktywne.
 
 {% hint style="info" %}
 Założenie gildii nie kosztuje złota, ale twoja postać musi mieć co najmniej **poziom 50**. Możesz ją utworzyć bezpośrednio w oknie Gildii w kliencie.
@@ -13,13 +13,31 @@ Założenie gildii nie kosztuje złota, ale twoja postać musi mieć co najmniej
 - Każda wpłata jest zapisywana przy postaci, więc gildia widzi, kto ją finansuje.
 - **Wpłaty nigdy nie są zwracane.** Złoto, które trafi do skarbca, zostaje w nim.
 
-## 📈 Poziomy Gildii i Miejsca dla Członków
+## 📈 Poziomy Gildii
 
-Gildia rozwija się od poziomu 1 do **poziomu 100**. Poziomy liczone są w przedziałach po dziesięć, a każdy przedział daje **5 dodatkowych miejsc** i jeden stopień każdego odblokowanego wzmocnienia.
+Gildia rozwija się od poziomu 1 do **poziomu 100**. Poziomy liczone są w przedziałach po dziesięć, a każdy przedział dodaje kolejny stopień do każdego odblokowanego wzmocnienia i podnosi limit miejsc dla członków, które gildia może kupić.
 
 | Poziom gildii | 1 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Miejsca dla członków | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 |
+| Limit miejsc | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 |
+
+## 👥 Miejsca dla Członków
+
+Gildia powstaje z **5 miejscami** i każde kolejne kupuje ze skarbca. Poziom gildii ich nie przyznaje — wyznacza tylko limit, więc potrzebne są i poziom, i złoto. Każde miejsce kosztuje więcej niż poprzednie, a cena nigdy się nie zeruje.
+
+| Miejsce | Koszt | Łącznie na miejsca | Wymaga poziomu gildii |
+|---|---|---|---|
+| **6** | 50,000 | 50,000 | 10 |
+| **10** | 73,205 | 305,255 | 10 |
+| **15** | 117,897 | 796,869 | 20 |
+| **20** | 189,874 | 1,588,619 | 30 |
+| **25** | 305,795 | 2,863,742 | 40 |
+| **30** | 492,486 | 4,917,342 | 50 |
+| **35** | 793,154 | 8,224,687 | 60 |
+| **40** | 1,277,383 | 13,551,202 | 70 |
+| **45** | 2,057,238 | 22,129,609 | 80 |
+| **50** | 3,313,203 | 35,945,220 | 90 |
+| **55** | 5,335,947 | 58,195,402 | 100 |
 
 ## ✨ Pięć Wzmocnień
 

@@ -1,6 +1,6 @@
 # 🏛️ Sistema de Guildas
 
-Guildas sobem de nível com ouro. Os membros doam para um **tesouro** compartilhado, e a liderança o gasta em níveis de guilda — que concedem vagas de membro — e em cinco **bônus** de guilda que valem para todos os membros online enquanto estiverem ativos.
+Guildas sobem de nível com ouro. Os membros doam para um **tesouro** compartilhado, e a liderança o gasta em níveis de guilda, em **vagas de membro** e em cinco **bônus** de guilda que valem para todos os membros online enquanto estiverem ativos.
 
 {% hint style="info" %}
 Fundar uma guilda não custa ouro, mas seu personagem precisa ter no mínimo **nível 50**. Você pode criá-la direto pela janela de Guilda no cliente.
@@ -13,13 +13,31 @@ Fundar uma guilda não custa ouro, mas seu personagem precisa ter no mínimo **n
 - Cada doação é registrada por personagem, então a guilda vê quem a financiou.
 - **Doações nunca são devolvidas.** Ouro que entra no tesouro fica lá.
 
-## 📈 Níveis de Guilda e Vagas de Membro
+## 📈 Níveis de Guilda
 
-Uma guilda vai do nível 1 ao **nível 100**. Os níveis são contados em faixas de dez, e cada faixa concede **mais 5 vagas de membro** e mais um degrau de cada bônus já desbloqueado.
+Uma guilda vai do nível 1 ao **nível 100**. Os níveis são contados em faixas de dez, e cada faixa adiciona mais um degrau a cada bônus desbloqueado e eleva o teto de quantas vagas de membro a guilda pode comprar.
 
 | Nível da guilda | 1 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Vagas de membro | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 |
+| Teto de vagas | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 |
+
+## 👥 Vagas de Membro
+
+Uma guilda é fundada com **5 membros** e compra cada vaga adicional do tesouro. O nível da guilda não dá vagas; ele apenas define o teto, então é preciso ter o nível e o ouro. Cada vaga custa mais que a anterior, e o preço nunca zera.
+
+| Vaga | Custa | Total gasto em vagas | Exige nível de guilda |
+|---|---|---|---|
+| **6** | 50,000 | 50,000 | 10 |
+| **10** | 73,205 | 305,255 | 10 |
+| **15** | 117,897 | 796,869 | 20 |
+| **20** | 189,874 | 1,588,619 | 30 |
+| **25** | 305,795 | 2,863,742 | 40 |
+| **30** | 492,486 | 4,917,342 | 50 |
+| **35** | 793,154 | 8,224,687 | 60 |
+| **40** | 1,277,383 | 13,551,202 | 70 |
+| **45** | 2,057,238 | 22,129,609 | 80 |
+| **50** | 3,313,203 | 35,945,220 | 90 |
+| **55** | 5,335,947 | 58,195,402 | 100 |
 
 ## ✨ Os Cinco Bônus
 

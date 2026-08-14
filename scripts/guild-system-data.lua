@@ -13,7 +13,8 @@ GuildSystem = {}
 load(src:match("(GuildSystem%.CONFIG = {.-\n})"))()
 local C = GuildSystem.CONFIG
 local body = {}
-for _, n in ipairs({"getLevelCost","getMaxSlots","getBonus","getBuffCost","getBlockCost"}) do
+for _, n in ipairs({"getLevelCost","getMaxSlots","getSlotCeiling","getSlotCost",
+                    "getBonus","getBuffCost","getBlockCost"}) do
     body[#body+1] = src:match("(function GuildSystem%." .. n .. ".-\nend)")
 end
 load("local CONFIG = GuildSystem.CONFIG\n" .. table.concat(body, "\n"))()
@@ -24,6 +25,7 @@ out:write("blockMinutes\t", C.buffBlockMinutes, "\n")
 out:write("maxMinutes\t", C.buffMaxMinutes, "\n")
 out:write("priceStep\t", C.buffPriceStep, "\n")
 out:write("minDonation\t", C.minDonation, "\n")
+out:write("baseSlots\t", C.baseSlots, "\n")
 out:write("resetHour\t", C.buffResetHour, "\n")
 for _, b in ipairs(C.buffOrder) do
     local cfg = C.buffs[b]
@@ -33,7 +35,7 @@ end
 local total = 0
 for L = 1, C.maxLevel do
     -- level, cost to next, cumulative to reach L, slots, bonus per buff
-    out:write("level\t", L, "\t", GuildSystem.getLevelCost(L), "\t", total, "\t", GuildSystem.getMaxSlots(L))
+    out:write("level\t", L, "\t", GuildSystem.getLevelCost(L), "\t", total, "\t", GuildSystem.getSlotCeiling(L))
     for _, b in ipairs(C.buffOrder) do out:write("\t", GuildSystem.getBonus(b, L)) end
     -- per-member first block and first hour (4 escalating blocks)
     for _, members in ipairs({1, 20}) do
@@ -46,4 +48,22 @@ for L = 1, C.maxLevel do
     out:write("\n")
     total = total + GuildSystem.getLevelCost(L)
 end
+-- The slot ladder: price of the Nth extra slot and the running total, plus the
+-- guild level needed before the server will sell it.
+local slotTotal = 0
+local purchased = 0
+while GuildSystem.getMaxSlots(purchased) < GuildSystem.getSlotCeiling(C.maxLevel) do
+    local owned = GuildSystem.getMaxSlots(purchased) + 1
+    local needed
+    for level = 0, C.maxLevel, C.levelsPerBracket do
+        if GuildSystem.getSlotCeiling(level) >= owned then
+            needed = math.max(1, level)
+            break
+        end
+    end
+    out:write("slot\t", owned, "\t", GuildSystem.getSlotCost(purchased), "\t", slotTotal, "\t", needed or 0, "\n")
+    slotTotal = slotTotal + GuildSystem.getSlotCost(purchased)
+    purchased = purchased + 1
+end
+
 out:close()
